@@ -1,3 +1,1441 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Eladio Transport — Presentación</title><style>:root{font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;color:#193540;background:#f5f8f9}*{box-sizing:border-box}body{margin:0;line-height:1.55}.wrap{max-width:990px;margin:auto;padding:24px}.nav{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}.brand{font-weight:850;font-size:20px}.mark{display:inline-grid;place-items:center;width:38px;height:38px;border-radius:12px;background:#08746d;color:white;margin-right:10px}.btn{border:0;background:#08746d;color:white;padding:12px 16px;border-radius:11px;font-weight:750;text-decoration:none;cursor:pointer;display:inline-block}.btn.outline{border:1px solid #cee0df;background:white;color:#08746d}.hero{padding:60px 0 34px;max-width:820px}h1{font-size:clamp(32px,5vw,52px);letter-spacing:-1.5px;line-height:1.12;margin:12px 0 20px}h2{font-size:23px;letter-spacing:-.5px}p{color:#536c74}.eyebrow{color:#08746d;font-size:12px;text-transform:uppercase;letter-spacing:1.3px;font-weight:850}.lead{font-size:18px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.card{border:1px solid #e0e8ea;background:white;border-radius:17px;padding:21px}.card h3{margin:4px 0}.card p{margin-bottom:0;font-size:14px}.section{margin-top:33px}.steps{counter-reset:step;display:grid;gap:10px}.step{display:flex;gap:13px;align-items:start;background:white;border:1px solid #e0e8ea;border-radius:13px;padding:14px}.step b{background:#e4f5f0;color:#08746d;min-width:30px;height:30px;border-radius:50%;display:grid;place-items:center}.tip{background:#e8f5f1;border-radius:14px;padding:19px;margin-top:24px}.warning{background:#fff7e5;border:1px solid #f2dfaa;border-radius:14px;padding:17px;margin-top:22px;color:#7c591a}.warning p{color:inherit;margin:6px 0 0}.feedback{background:#102f39;border-radius:20px;padding:25px;color:white}.feedback p,.feedback li{color:#c8d9df}.feedback ul{padding-left:20px}.footer{margin:40px 0;color:#6a8088;font-size:12px}@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{padding-top:40px}.wrap{padding:16px}}</style></head><body><div class="wrap"><nav class="nav"><div class="brand"><span class="mark">E</span>Eladio Transport</div><div><button class="btn outline" id="lang">English</button> <a class="btn" href="demo.html" data-i="open">Explorar la demo →</a></div></nav><header class="hero"><div class="eyebrow" data-i="eyebrow">Una idea para apoyar tu negocio</div><h1 data-i="headline">Más organización. Menos mensajes. El mismo servicio de confianza.</h1><p class="lead" data-i="intro">Eladio, preparé esta primera demostración como una manera de explorar cómo la tecnología podría facilitar tu trabajo diario, coordinar a tus conductores y mantener informados a tus clientes. No pretende reemplazar tu atención personal: quiere ayudarte a dedicarle menos tiempo a la coordinación.</p><a class="btn" href="demo.html" data-i="try">Probar la demostración →</a></header><section class="section"><h2 data-i="roles">Tres vistas en una sola herramienta</h2><div class="grid"><div class="card"><div>📅</div><h3 data-i="manager">Administrador</h3><p data-i="managerBody">Ver un calendario semanal y las solicitudes, asignar conductores, establecer tarifas, revisar estados y registrar pagos.</p></div><div class="card"><div>🚙</div><h3 data-i="driver">Conductor</h3><p data-i="driverBody">Consultar los viajes asignados, abrir indicaciones y actualizar el progreso de cada traslado.</p></div><div class="card"><div>👨‍👩‍👧</div><h3 data-i="rider">Cliente</h3><p data-i="riderBody">Solicitar un traslado para la familia, agregar instrucciones importantes y consultar el estado de la reserva.</p></div></div></section><section class="section"><h2 data-i="flowTitle">Cómo podría funcionar una reserva</h2><div class="steps"><div class="step"><b>1</b><div data-i="flow1">El cliente escribe por WhatsApp o solicita un viaje en la página.</div></div><div class="step"><b>2</b><div data-i="flow2">Eladio revisa el pedido, confirma la tarifa y asigna un conductor de confianza.</div></div><div class="step"><b>3</b><div data-i="flow3">El viaje aparece en el calendario y en la agenda del conductor.</div></div><div class="step"><b>4</b><div data-i="flow4">Se comparten actualizaciones y se registra el pago, sin cobrar desde la página.</div></div></div><div class="tip"><strong data-i="whats">WhatsApp seguirá siendo importante.</strong><p data-i="whatsBody">Hoy la demo permite pegar un mensaje y preparar mensajes para enviar manualmente. En el futuro podemos estudiar una integración oficial para recibir y enviar actualizaciones automáticamente, si el costo vale la pena.</p></div></section><section class="section"><h2 data-i="costTitle">Pensado para ser económico</h2><div class="grid"><div class="card"><h3 data-i="cost1">Comenzar gratis</h3><p data-i="cost1body">La demostración puede publicarse sin costo en GitHub Pages. El calendario y las pantallas están dentro del mismo sitio.</p></div><div class="card"><h3 data-i="cost2">Evitar suscripciones</h3><p data-i="cost2body">Abrir Google Maps externamente, mantener los pagos por Yape, Plin, efectivo o transferencia y no pagar por funciones innecesarias.</p></div><div class="card"><h3 data-i="cost3">Invertir solo cuando aporte valor</h3><p data-i="cost3body">Una base de datos compartida y la automatización de WhatsApp podrían generar costos más adelante. Primero mediremos el tiempo que realmente ahorran.</p></div></div></section><div class="warning"><strong data-i="demoTitle">Importante: esta es una demostración, no un sistema listo para operar.</strong><p data-i="demoBody">Los datos son ficticios y se guardan únicamente en el navegador de quien la usa. No hay cuentas privadas, sincronización entre teléfonos, acceso automático a WhatsApp, mapas con tarifas reales ni protección suficiente para datos de clientes o menores. No ingreses información personal real todavía.</p></div><section class="section feedback"><h2 data-i="feedbackTitle">Tu opinión es lo más importante</h2><p data-i="feedbackIntro">Antes de desarrollar más funciones, me gustaría saber:</p><ul><li data-i="q1">¿Qué parte de coordinar viajes te consume más tiempo?</li><li data-i="q2">¿Te ayudaría ver todos los viajes y conductores en un calendario?</li><li data-i="q3">¿Qué haces actualmente cuando varios clientes te escriben al mismo tiempo?</li><li data-i="q4">¿Qué mejorarías o eliminarías de esta demostración?</li></ul><a class="btn" href="demo.html" data-i="explore">Explorar la demo →</a></section><footer class="footer" data-i="foot">Un prototipo inicial para conversar y aprender. No se ha creado una empresa ni se han conectado sistemas de cobro.</footer></div><script>
-const i18n={es:{open:'Explorar la demo →',eyebrow:'Una idea para apoyar tu negocio',headline:'Más organización. Menos mensajes. El mismo servicio de confianza.',intro:'Eladio, preparé esta primera demostración como una manera de explorar cómo la tecnología podría facilitar tu trabajo diario, coordinar a tus conductores y mantener informados a tus clientes. No pretende reemplazar tu atención personal: quiere ayudarte a dedicarle menos tiempo a la coordinación.',try:'Probar la demostración →',roles:'Tres vistas en una sola herramienta',manager:'Administrador',managerBody:'Ver un calendario semanal y las solicitudes, asignar conductores, establecer tarifas, revisar estados y registrar pagos.',driver:'Conductor',driverBody:'Consultar los viajes asignados, abrir indicaciones y actualizar el progreso de cada traslado.',rider:'Cliente',riderBody:'Solicitar un traslado para la familia, agregar instrucciones importantes y consultar el estado de la reserva.',flowTitle:'Cómo podría funcionar una reserva',flow1:'El cliente escribe por WhatsApp o solicita un viaje en la página.',flow2:'Eladio revisa el pedido, confirma la tarifa y asigna un conductor de confianza.',flow3:'El viaje aparece en el calendario y en la agenda del conductor.',flow4:'Se comparten actualizaciones y se registra el pago, sin cobrar desde la página.',whats:'WhatsApp seguirá siendo importante.',whatsBody:'Hoy la demo permite pegar un mensaje y preparar mensajes para enviar manualmente. En el futuro podemos estudiar una integración oficial para recibir y enviar actualizaciones automáticamente, si el costo vale la pena.',costTitle:'Pensado para ser económico',cost1:'Comenzar gratis',cost1body:'La demostración puede publicarse sin costo en GitHub Pages. El calendario y las pantallas están dentro del mismo sitio.',cost2:'Evitar suscripciones',cost2body:'Abrir Google Maps externamente, mantener los pagos por Yape, Plin, efectivo o transferencia y no pagar por funciones innecesarias.',cost3:'Invertir solo cuando aporte valor',cost3body:'Una base de datos compartida y la automatización de WhatsApp podrían generar costos más adelante. Primero mediremos el tiempo que realmente ahorran.',demoTitle:'Importante: esta es una demostración, no un sistema listo para operar.',demoBody:'Los datos son ficticios y se guardan únicamente en el navegador de quien la usa. No hay cuentas privadas, sincronización entre teléfonos, acceso automático a WhatsApp, mapas con tarifas reales ni protección suficiente para datos de clientes o menores. No ingreses información personal real todavía.',feedbackTitle:'Tu opinión es lo más importante',feedbackIntro:'Antes de desarrollar más funciones, me gustaría saber:',q1:'¿Qué parte de coordinar viajes te consume más tiempo?',q2:'¿Te ayudaría ver todos los viajes y conductores en un calendario?',q3:'¿Qué haces actualmente cuando varios clientes te escriben al mismo tiempo?',q4:'¿Qué mejorarías o eliminarías de esta demostración?',explore:'Explorar la demo →',foot:'Un prototipo inicial para conversar y aprender. No se ha creado una empresa ni se han conectado sistemas de cobro.'},en:{open:'Explore demo →',eyebrow:'An idea to support your business',headline:'More organization. Fewer messages. The same trusted service.',intro:'Eladio, I made this first demonstration to explore how technology could simplify your daily work, coordinate your trusted drivers, and keep customers updated. It is not meant to replace your personal service, but to reduce the time you spend coordinating.',try:'Try the demo →',roles:'Three views in one tool',manager:'Manager',managerBody:'See a weekly calendar and requests, assign drivers, set fares, review statuses, and record payments.',driver:'Driver',driverBody:'Review assigned trips, open directions, and update ride progress.',rider:'Rider',riderBody:'Request a family ride, add important instructions, and review booking status.',flowTitle:'How a ride could work',flow1:'A customer messages through WhatsApp or requests a ride on the website.',flow2:'Eladio reviews the request, confirms the fare, and assigns a trusted driver.',flow3:'The ride appears on the calendar and on the driver schedule.',flow4:'Updates are shared and payment is recorded outside the website.',whats:'WhatsApp will remain important.',whatsBody:'Today the demo lets you paste a message and prepare updates to send manually. Later, we can evaluate an official integration to receive and send updates automatically, if the costs make sense.',costTitle:'Designed to be affordable',cost1:'Start for free',cost1body:'The demonstration can be published for free on GitHub Pages. The calendar and screens are built into the same website.',cost2:'Avoid subscriptions',cost2body:'Open Google Maps externally, keep existing Yape, Plin, cash, or bank transfer payments, and avoid paying for unnecessary features.',cost3:'Invest only when useful',cost3body:'A shared database and WhatsApp automation may have costs later. First we will measure the time they actually save.',demoTitle:'Important: This is a demonstration, not a live operating system.',demoBody:'Records are fictional and stored only in each person’s browser. There are no private accounts, no synchronization between devices, no automatic WhatsApp access, no real map-based fares, and insufficient protection for customer or child information. Do not enter personal information yet.',feedbackTitle:'Your feedback matters most',feedbackIntro:'Before developing more features, I would love to know:',q1:'What part of coordinating rides takes up the most time?',q2:'Would it help to see all rides and drivers on one calendar?',q3:'What happens when several customers message you at once?',q4:'What would you change or remove from this demo?',explore:'Explore the demo →',foot:'An initial prototype to discuss and learn from. No company has been created and no payment systems connected.'}};let lang='es';document.getElementById('lang').onclick=()=>{lang=lang==='es'?'en':'es';document.documentElement.lang=lang;document.getElementById('lang').textContent=lang==='es'?'English':'Español';document.querySelectorAll('[data-i]').forEach(e=>e.textContent=i18n[lang][e.dataset.i])};
-</script></body></html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eladio Transport · Prototipo</title>
+<meta name="description" content="Prototipo de demostración para coordinar viajes de Eladio en Punta Hermosa. Datos de ejemplo.">
+<meta name="theme-color" content="#ffffff">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%232b63d9'/%3E%3Cpath d='M12 38c7-6 13-6 20 0s13 6 20 0' stroke='%23fff' stroke-width='5' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='44' cy='22' r='6' fill='%23f4b740'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --font:"Figtree", "Avenir Next", "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+  --bg:#f4f6f8; --surface:#ffffff; --surface-2:#f0f3f7; --sand:#f6eee1; --sand-ink:#6b5332; --sand-line:#eadcc4;
+  --ink:#18212b; --muted:#5d6876; --line:#e2e7ed;
+  --primary:#2b63d9; --primary-hover:#1f50ba; --primary-soft:#e9f0fd; --on-primary:#ffffff;
+  --sun:#f4b740; --ok:#1e9e6a; --danger:#c93d3d;
+  --s-pending:#8a5a00; --s-pending-bg:#fff2d3;
+  --s-approved:#b0521b; --s-approved-bg:#fde8db;
+  --s-assigned:#2b63d9; --s-assigned-bg:#e9f0fd;
+  --s-accepted:#157a52; --s-accepted-bg:#e0f4eb;
+  --s-active:#6a44c2; --s-active-bg:#efe9fb;
+  --s-done:#56616d; --s-done-bg:#eceff3;
+  --s-cancel:#c93d3d; --s-cancel-bg:#fbe5e5;
+  --r-xl:26px; --r-lg:18px; --r:14px; --r-sm:10px;
+  --shadow-sm:0 1px 2px rgba(24,33,43,.05);
+  --shadow:0 1px 2px rgba(24,33,43,.04), 0 14px 34px -16px rgba(24,33,43,.22);
+  --header-h:60px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f141a; --surface:#171e26; --surface-2:#1e2731; --sand:#2a2419; --sand-ink:#ead5b1; --sand-line:#3d3424;
+    --ink:#e9eef3; --muted:#9ba8b6; --line:#27323e;
+    --primary:#6e9bff; --primary-hover:#8db0ff; --primary-soft:#1c2a44; --on-primary:#0b1220;
+    --s-pending:#f5cd70; --s-pending-bg:#372a0e;
+    --s-approved:#ffb48c; --s-approved-bg:#3b2416;
+    --s-assigned:#9bbcff; --s-assigned-bg:#1c2a44;
+    --s-accepted:#7fdcb5; --s-accepted-bg:#12352a;
+    --s-active:#c9b2ff; --s-active-bg:#2b2145;
+    --s-done:#b3bdc8; --s-done-bg:#232c36;
+    --s-cancel:#ff9d9d; --s-cancel-bg:#3d1f22;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 14px 34px -16px rgba(0,0,0,.7);
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:16.5px;line-height:1.5;-webkit-font-smoothing:antialiased}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+h1,h2,h3{line-height:1.15;margin:0 0 .4em;letter-spacing:-.015em}
+h1{font-size:clamp(1.55rem,4vw,2rem);font-weight:800}
+h2{font-size:1.2rem;font-weight:700}
+h3{font-size:1.02rem;font-weight:700}
+p{margin:0 0 .8em}
+a{color:var(--primary)}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px;border-radius:8px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:-999px;top:0;background:var(--surface);padding:10px 14px;z-index:100}
+.skip:focus{left:10px;top:10px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+.wrap.wide{max-width:1480px}
+
+/* Header */
+.topbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb, var(--surface) 92%, transparent);backdrop-filter:saturate(1.4) blur(10px);-webkit-backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.topbar-in{display:flex;align-items:center;gap:10px;min-height:var(--header-h)}
+.brand{display:flex;align-items:center;gap:10px;background:none;border:0;padding:6px 2px;font-weight:800;font-size:1.08rem;letter-spacing:-.01em;color:var(--ink)}
+.brand small{display:block;font-weight:500;font-size:.74rem;color:var(--muted);letter-spacing:0}
+.brand-text{text-align:left;line-height:1.1}
+.topnav{display:flex;gap:2px;margin-left:auto}
+.topnav button{background:none;border:0;color:var(--muted);padding:10px 12px;min-height:44px;border-radius:999px;font-weight:600;font-size:.95rem}
+.topnav button[aria-current="page"]{color:var(--ink);background:var(--surface-2)}
+.lang{display:flex;background:var(--surface-2);border-radius:999px;padding:3px}
+.lang button{background:none;border:0;padding:7px 11px;min-height:38px;min-width:42px;font-weight:700;font-size:.86rem;border-radius:999px;color:var(--muted)}
+.lang button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm)}
+.demo-pill{display:flex;justify-content:center;padding:8px 18px 0}
+.demo-pill span{background:var(--sand);color:var(--sand-ink);border:1px solid var(--sand-line);border-radius:999px;padding:5px 14px;font-size:.84rem;font-weight:600;text-align:center}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:46px;padding:10px 18px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font-weight:700;text-decoration:none;font-size:.96rem;line-height:1.2;transition:background .15s, border-color .15s}
+.btn:hover{border-color:color-mix(in srgb, var(--primary) 45%, var(--line))}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:var(--on-primary)}
+.btn.primary:hover{background:var(--primary-hover);border-color:var(--primary-hover)}
+.btn.soft{background:var(--primary-soft);border-color:transparent;color:var(--primary)}
+.btn.quiet{background:transparent;border-color:transparent;color:var(--muted)}
+.btn.quiet:hover{color:var(--ink);background:var(--surface-2)}
+.btn.danger{color:var(--danger);border-color:var(--s-cancel-bg);background:var(--surface)}
+.btn.wa{background:#25d366;border-color:#25d366;color:#08311a}
+.btn.lg{min-height:54px;padding:14px 24px;font-size:1.04rem}
+.btn.sm{min-height:38px;padding:7px 13px;font-size:.88rem}
+.btn.block{width:100%}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.spacer{flex:1}
+
+/* Notes */
+.note{color:var(--muted);font-size:.88rem}
+.callout{border-radius:var(--r);padding:11px 14px;font-size:.92rem;display:flex;gap:10px;align-items:flex-start;background:var(--surface-2);color:var(--ink)}
+.callout .ic{flex:none;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.78rem;font-weight:800;background:var(--ink);color:var(--surface)}
+.callout.sand{background:var(--sand);color:var(--sand-ink)}
+.callout.sand .ic{background:var(--sand-ink);color:var(--sand)}
+.callout.blue{background:var(--primary-soft);color:var(--ink)}
+.callout.blue .ic{background:var(--primary);color:var(--on-primary)}
+
+/* Intro */
+.hero{position:relative;padding:42px 0 110px;overflow:hidden}
+.hero .kicker{color:var(--muted);font-size:1.02rem;font-weight:600;margin-bottom:22px}
+.stops{list-style:none;margin:0 0 26px;padding:0}
+.stops li{position:relative;padding-left:44px;font-weight:800;font-size:clamp(2rem,7.5vw,3.9rem);line-height:1.04;letter-spacing:-.035em;margin:0 0 .3em}
+.stops li::before{content:"";position:absolute;left:6px;top:.3em;width:20px;height:20px;border-radius:50%;border:4px solid var(--primary);background:var(--bg)}
+.stops li:not(:last-child)::after{content:"";position:absolute;left:15px;top:calc(.3em + 24px);height:calc(100% - 4px);border-left:3px dotted color-mix(in srgb, var(--primary) 55%, transparent)}
+.stops li:last-child{color:var(--primary)}
+.stops li:last-child::before{background:var(--sun);border-color:var(--sun)}
+.hero .lead{font-size:1.12rem;max-width:58ch;color:var(--muted)}
+.hero .callout{max-width:60ch;margin:18px 0}
+.hero .cta{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 8px}
+.horizon{position:absolute;left:0;right:0;bottom:0;height:90px;pointer-events:none}
+.horizon path{fill:var(--sand)}
+.band{background:var(--sand)}
+.section{padding:36px 18px}
+.section h2{font-size:1.5rem;font-weight:800}
+.steps{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:12px;counter-reset:s}
+@media(min-width:720px){.steps{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1000px){.steps{grid-template-columns:repeat(3,1fr)}}
+.steps li{counter-increment:s;background:var(--surface);border-radius:var(--r-lg);padding:18px 18px 16px 62px;position:relative;box-shadow:var(--shadow-sm)}
+.steps li::before{content:counter(s);position:absolute;left:16px;top:16px;width:32px;height:32px;border-radius:50%;background:var(--primary-soft);color:var(--primary);font-weight:800;display:grid;place-items:center}
+.steps h3{margin:3px 0 4px}
+.steps p{margin:0;color:var(--muted);font-size:.95rem}
+.roles{display:grid;gap:12px;margin-top:16px}
+@media(min-width:760px){.roles{grid-template-columns:repeat(3,1fr)}}
+.role-card{text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--r-lg);padding:20px;display:flex;flex-direction:column;gap:6px;min-height:140px;transition:border-color .15s, transform .15s}
+.role-card:hover{border-color:var(--primary);transform:translateY(-1px)}
+.role-card strong{font-size:1.15rem}
+.role-card span{color:var(--muted);font-size:.95rem}
+.role-card em{font-style:normal;color:var(--primary);font-weight:700;margin-top:auto}
+.two{display:grid;gap:14px}
+@media(min-width:760px){.two{grid-template-columns:1fr 1fr}}
+.card{background:var(--surface);border-radius:var(--r-lg);padding:18px;box-shadow:var(--shadow-sm);border:1px solid var(--line)}
+.checks{list-style:none;margin:8px 0 0;padding:0}
+.checks li{padding:8px 0 8px 32px;position:relative;border-top:1px solid var(--line);font-size:.95rem}
+.checks li:first-child{border-top:0}
+.checks li::before{position:absolute;left:0;top:9px;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;font-size:.76rem;font-weight:800}
+.checks.yes li::before{content:"✓";background:var(--s-accepted-bg);color:var(--s-accepted)}
+.checks.no li::before{content:"✕";background:var(--s-cancel-bg);color:var(--s-cancel)}
+.fb label{display:block;font-weight:700;margin:14px 0 6px}
+
+/* Forms */
+.field{display:flex;flex-direction:column;gap:6px;min-width:0}
+.field>span{font-weight:700;font-size:.9rem;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.field .hint{font-weight:500;color:var(--muted);font-size:.8rem}
+input[type=text],input[type=tel],input[type=date],input[type=time],input[type=number],select,textarea{
+  width:100%;min-height:48px;padding:11px 14px;border:1px solid var(--line);border-radius:var(--r);background:var(--surface);color:var(--ink);font-size:16px;transition:border-color .15s, box-shadow .15s}
+textarea{min-height:84px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--primary);box-shadow:0 0 0 4px var(--primary-soft)}
+.g2{display:grid;gap:12px}
+@media(min-width:620px){.g2{grid-template-columns:1fr 1fr}}
+.g3{display:grid;gap:12px;grid-template-columns:1fr 1fr}
+@media(min-width:620px){.g3{grid-template-columns:1fr 1fr 1fr}}
+.all{grid-column:1/-1}
+.money{position:relative;display:block}
+.money input{padding-left:42px}
+.money::before{content:"S/";position:absolute;left:14px;top:50%;transform:translateY(-50%);font-weight:700;color:var(--muted);pointer-events:none}
+.tag{display:inline-block;font-size:.72rem;font-weight:700;border-radius:999px;padding:2px 8px}
+.tag.ok{background:var(--s-accepted-bg);color:var(--s-accepted)}
+.tag.check{background:var(--s-pending-bg);color:var(--s-pending)}
+
+/* Segmented / chips / badges */
+.seg{display:inline-flex;flex-wrap:wrap;background:var(--surface-2);border-radius:999px;padding:4px;gap:2px}
+.seg button{border:0;background:none;padding:8px 14px;min-height:38px;border-radius:999px;font-weight:700;font-size:.9rem;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:var(--shadow-sm)}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--sand-line);background:var(--sand);color:var(--sand-ink);border-radius:999px;padding:8px 14px;min-height:40px;font-weight:700;font-size:.9rem}
+.chip:hover{border-color:var(--sand-ink)}
+.chip[aria-pressed="true"]{background:var(--sand-ink);color:var(--sand);border-color:var(--sand-ink)}
+.chip.plain{background:var(--surface);border-color:var(--line);color:var(--ink)}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.badge{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:700;white-space:nowrap}
+.badge::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.b-pending{background:var(--s-pending-bg);color:var(--s-pending)}
+.b-approved{background:var(--s-approved-bg);color:var(--s-approved)}
+.b-assigned{background:var(--s-assigned-bg);color:var(--s-assigned)}
+.b-accepted{background:var(--s-accepted-bg);color:var(--s-accepted)}
+.b-active{background:var(--s-active-bg);color:var(--s-active)}
+.b-done{background:var(--s-done-bg);color:var(--s-done)}
+.b-cancel{background:var(--s-cancel-bg);color:var(--s-cancel)}
+.b-paid{background:var(--s-accepted-bg);color:var(--s-accepted)}
+.b-unpaid{background:var(--s-active-bg);color:var(--s-active)}
+.dot{width:9px;height:9px;border-radius:50%;flex:none;background:var(--s-done)}
+.dot.pending{background:var(--s-pending)} .dot.approved{background:var(--s-approved)} .dot.assigned{background:var(--s-assigned)}
+.dot.accepted{background:var(--s-accepted)} .dot.active{background:var(--s-active)} .dot.cancel{background:var(--s-cancel)}
+.avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:.82rem;color:#fff;flex:none}
+.avatar.lg{width:48px;height:48px;font-size:1rem}
+.avatar.none{background:var(--surface-2);color:var(--muted);border:1.5px dashed var(--line)}
+
+/* App shell */
+.app{padding:14px 18px 40px}
+.rolebar{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;margin-bottom:16px}
+.rolebar .lbl{font-weight:700;font-size:.9rem;color:var(--muted)}
+.rolebar .lock{font-size:.82rem;color:var(--sand-ink);background:var(--sand);border-radius:999px;padding:5px 12px}
+.app-foot{margin-top:26px}
+.empty{color:var(--muted);text-align:center;padding:24px;border:1.5px dashed var(--line);border-radius:var(--r-lg);font-size:.95rem}
+
+/* ---- Family (rider) ---- */
+.rider{max-width:620px;margin:0 auto}
+.hello{font-size:clamp(1.6rem,6vw,2.1rem);font-weight:800;letter-spacing:-.025em;margin:6px 0 2px}
+.fam-pick{display:flex;align-items:center;gap:10px;margin-bottom:18px}
+.fam-pick select{width:auto;min-height:40px;padding:6px 12px;border-radius:999px;font-size:.92rem}
+.next{background:var(--surface);border-radius:var(--r-xl);padding:20px;box-shadow:var(--shadow);margin-bottom:18px;border:1px solid var(--line)}
+.next .top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px;flex-wrap:wrap}
+.next .when{font-size:1.5rem;font-weight:800;letter-spacing:-.02em}
+.next .day{color:var(--muted);font-weight:600}
+.trip-line{display:grid;grid-template-columns:18px 1fr;gap:4px 12px;margin:12px 0}
+.trip-line .pin{display:flex;flex-direction:column;align-items:center;padding-top:6px}
+.trip-line .pin i{width:12px;height:12px;border-radius:50%;border:3px solid var(--primary);background:var(--surface)}
+.trip-line .pin i.end{background:var(--primary)}
+.trip-line .pin b{flex:1;border-left:2px dotted var(--line);margin:3px 0;min-height:16px}
+.trip-line .stops-txt{display:flex;flex-direction:column;justify-content:space-between;gap:12px}
+.trip-line .stops-txt span{font-weight:700}
+.trip-line .stops-txt small{display:block;color:var(--muted);font-weight:500;font-size:.8rem}
+.driver-strip{display:flex;align-items:center;gap:12px;background:var(--surface-2);border-radius:var(--r);padding:12px;margin:12px 0}
+.driver-strip .who{line-height:1.25}
+.driver-strip .who small{display:block;color:var(--muted);font-size:.84rem}
+.driver-strip .safe{display:inline-block;margin-top:6px;font-size:.78rem;font-weight:700;color:var(--s-accepted);background:var(--s-accepted-bg);border-radius:999px;padding:4px 10px;white-space:nowrap}
+.waiting{display:flex;gap:12px;align-items:center;background:var(--s-pending-bg);color:var(--s-pending);border-radius:var(--r);padding:12px;font-weight:600;font-size:.94rem;margin:12px 0}
+.book{background:var(--surface);border-radius:var(--r-xl);box-shadow:var(--shadow);overflow:hidden;border:1px solid var(--line)}
+.book-head{padding:20px 20px 0}
+.book-head h2{font-size:1.45rem;font-weight:800;letter-spacing:-.02em}
+.progress{display:flex;gap:6px;margin:4px 0 0}
+.progress i{flex:1;height:5px;border-radius:999px;background:var(--surface-2)}
+.progress i.on{background:var(--primary)}
+.step-label{font-size:.84rem;color:var(--muted);font-weight:600;margin:10px 0 0}
+.book-body{padding:16px 20px 20px;display:flex;flex-direction:column;gap:16px}
+.route-box{border:1px solid var(--line);border-radius:var(--r-lg);overflow:hidden;position:relative}
+.route-box label{display:grid;grid-template-columns:22px 1fr;align-items:center;gap:8px;padding:6px 14px}
+.route-box label+label{border-top:1px solid var(--line)}
+.route-box label i{width:12px;height:12px;border-radius:50%;border:3px solid var(--primary);justify-self:center}
+.route-box label.to i{background:var(--primary)}
+.route-box input{border:0;min-height:50px;padding:10px 46px 10px 0;box-shadow:none!important;background:transparent}
+.route-box .lbl{grid-column:2;font-size:.76rem;font-weight:700;color:var(--muted);margin-top:4px;margin-bottom:-12px}
+.swap{position:absolute;right:10px;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--surface);font-size:1.1rem;display:grid;place-items:center}
+.places h3{font-size:.86rem;color:var(--muted);margin:0 0 8px;font-weight:700}
+.places .sub{display:flex;gap:8px;align-items:center;margin:0 0 6px;font-size:.84rem;font-weight:700;color:var(--muted)}
+.stepper{display:inline-flex;align-items:center;gap:6px;background:var(--surface-2);border-radius:999px;padding:4px}
+.stepper button{width:42px;height:42px;border-radius:50%;border:0;background:var(--surface);font-size:1.3rem;font-weight:700;box-shadow:var(--shadow-sm)}
+.stepper output{min-width:34px;text-align:center;font-weight:800;font-size:1.2rem}
+.summary{display:grid;grid-template-columns:auto 1fr auto;gap:10px 12px;align-items:center;background:var(--surface-2);border-radius:var(--r-lg);padding:14px}
+.summary dt{color:var(--muted);font-size:.85rem;font-weight:600}
+.summary dd{margin:0;font-weight:700}
+.summary .edit{background:none;border:0;color:var(--primary);font-weight:700;font-size:.86rem;min-height:36px;padding:0 4px}
+.book-foot{display:flex;gap:10px;padding:0 20px 20px}
+.book-foot .btn.primary{flex:1}
+.mini{display:flex;flex-direction:column;gap:10px;margin-top:10px}
+.mini-trip{display:flex;gap:12px;align-items:center;background:var(--surface);border-radius:var(--r);padding:12px 14px;border:1px solid var(--line)}
+.mini-trip .d{min-width:62px;text-align:center;line-height:1.1}
+.mini-trip .d b{display:block;font-size:1.05rem}
+.mini-trip .d small{color:var(--muted);font-size:.78rem;font-weight:600}
+.mini-trip .m{flex:1;min-width:0;display:block}
+.mini-trip .m .r{display:block}
+.mini-trip .m small{display:block}
+.mini-trip .m .r{font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.mini-trip .m small{color:var(--muted)}
+.h-sec{font-size:1.05rem;margin:26px 0 6px}
+
+/* ---- Driver ---- */
+.driver{max-width:640px;margin:0 auto}
+.drv-top{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-bottom:16px}
+.drv-top select{width:auto;min-height:40px;padding:6px 12px;border-radius:999px;font-size:.92rem}
+.avail{display:inline-flex;align-items:center;gap:8px;min-height:42px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--surface);font-weight:700;font-size:.92rem}
+.avail::before{content:"";width:11px;height:11px;border-radius:50%;background:var(--danger)}
+.avail[aria-pressed="true"]::before{background:var(--ok)}
+.trip{background:var(--surface);border-radius:var(--r-lg);padding:16px;border:1px solid var(--line);display:flex;flex-direction:column;gap:8px}
+.trip.hero{border-radius:var(--r-xl);box-shadow:var(--shadow);padding:20px}
+.trip .t{font-size:1.6rem;font-weight:800;letter-spacing:-.02em}
+.trip.hero .t{font-size:2.1rem}
+.trip .top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+dl.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0}
+dl.kv dt{color:var(--muted);font-size:.86rem}
+dl.kv dd{margin:0;font-weight:600}
+.list{display:grid;gap:10px}
+
+/* ---- Manager ---- */
+.mgr{display:block}
+.pane{background:var(--surface);border-radius:var(--r-lg);border:1px solid var(--line);box-shadow:var(--shadow-sm);min-width:0}
+.pane-left{padding:14px}
+.pane-center{padding:14px}
+.pane-right{display:none}
+.kpis{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}
+.kpi{border:1px solid var(--line);background:var(--surface);border-radius:var(--r);padding:10px 12px;text-align:left;display:flex;align-items:center;gap:10px;min-height:58px}
+.kpi b{font-size:1.45rem;font-weight:800;line-height:1;min-width:26px}
+.kpi span{font-size:.8rem;color:var(--muted);line-height:1.2;font-weight:600}
+.kpi[aria-pressed="true"]{border-color:var(--primary);background:var(--primary-soft)}
+.kpi.k-pending b{color:var(--s-pending)} .kpi.k-unassigned b{color:var(--s-approved)} .kpi.k-unpaid b{color:var(--s-active)} .kpi.k-today b{color:var(--primary)}
+.att{margin-bottom:14px}
+.att h2{font-size:.95rem;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+.att h2 .n{background:var(--sun);color:#3b2a00;border-radius:999px;font-size:.75rem;padding:1px 8px}
+.att-item{display:flex;gap:10px;align-items:center;width:100%;text-align:left;border:0;background:var(--sand);color:var(--sand-ink);border-radius:var(--r-sm);padding:9px 12px;margin-bottom:6px;font-size:.88rem;font-weight:600}
+.att-item:hover{filter:brightness(.97)}
+.filters{margin-bottom:10px;display:flex;gap:6px;flex-wrap:wrap}
+.filters .seg{width:100%;display:grid;grid-template-columns:1fr 1fr;border-radius:16px}
+.filters .seg button{padding:8px 6px;font-size:.86rem;border-radius:12px}
+.rlist{display:flex;flex-direction:column;gap:6px}
+.rrow{display:grid;grid-template-columns:72px 1fr auto;gap:10px;align-items:center;width:100%;text-align:left;border:1px solid transparent;background:var(--surface-2);border-radius:var(--r);padding:10px 12px}
+.rrow:hover{border-color:var(--line);background:var(--surface)}
+.rrow[aria-current="true"]{border-color:var(--primary);background:var(--primary-soft)}
+.rrow .d{line-height:1.1}
+.rrow .d b{display:block;font-size:.9rem;white-space:nowrap}
+.rrow .d small{color:var(--muted);font-size:.74rem;font-weight:600}
+.rrow .m{min-width:0;display:block}
+.rrow .m .r{display:block}
+.rrow .m .r{font-weight:700;font-size:.92rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rrow .m .s{display:flex;align-items:center;gap:6px;color:var(--muted);font-size:.8rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.rrow .who{display:flex;align-items:center}
+.rrow .avatar{width:30px;height:30px;font-size:.74rem}
+.center-head{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;margin-bottom:12px}
+.datenav{display:flex;gap:6px;align-items:center}
+.datenav .btn{min-width:42px;padding:7px 12px}
+.datenav h2{margin:0 6px;font-size:1.05rem;white-space:nowrap}
+/* Timeline */
+.tl-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);-webkit-overflow-scrolling:touch}
+.tl{--hw:68px;--lw:150px;min-width:calc(var(--lw) + 19 * var(--hw));position:relative}
+.tl-hours{display:flex;position:sticky;top:0;background:var(--surface);z-index:2;border-bottom:1px solid var(--line)}
+.tl-hours .lw{width:var(--lw);flex:none;position:sticky;left:0;background:var(--surface);z-index:3}
+.tl-hours span{width:var(--hw);flex:none;font-size:.74rem;color:var(--muted);font-weight:600;padding:8px 0 6px 6px;border-left:1px solid var(--line)}
+.tl-row{display:flex;border-bottom:1px solid var(--line);min-height:62px}
+.tl-row:last-child{border-bottom:0}
+.tl-label{width:var(--lw);flex:none;display:flex;align-items:center;gap:8px;padding:8px 10px;position:sticky;left:0;background:var(--surface);z-index:1;border-right:1px solid var(--line)}
+.tl-label .nm{font-weight:700;font-size:.86rem;line-height:1.15}
+.tl-label .nm small{display:block;font-weight:600;color:var(--muted);font-size:.72rem}
+.tl-track{position:relative;flex:1;background-image:repeating-linear-gradient(to right, transparent 0 calc(var(--hw) - 1px), var(--line) calc(var(--hw) - 1px) var(--hw));transition:background-color .15s}
+.tl-track.over{background-color:var(--primary-soft)}
+.tl-row.unassigned .tl-track{background-color:color-mix(in srgb, var(--s-approved-bg) 45%, transparent)}
+.tl-row.off .tl-label .nm{opacity:.6}
+.blk{position:absolute;height:40px;border-radius:10px;border:0;border-left:4px solid;padding:3px 8px;text-align:left;font-size:.76rem;line-height:1.25;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;box-shadow:var(--shadow-sm)}
+.blk b{display:block;font-size:.78rem}
+.blk[draggable="true"]{cursor:grab}
+.blk.s-pending{background:var(--s-pending-bg);border-color:var(--s-pending);color:var(--ink)}
+.blk.s-approved{background:var(--s-approved-bg);border-color:var(--s-approved);color:var(--ink)}
+.blk.s-assigned{background:var(--s-assigned-bg);border-color:var(--s-assigned);color:var(--ink)}
+.blk.s-accepted{background:var(--s-accepted-bg);border-color:var(--s-accepted);color:var(--ink)}
+.blk.s-active{background:var(--s-active-bg);border-color:var(--s-active);color:var(--ink)}
+.blk.s-done{background:var(--s-done-bg);border-color:var(--s-done);color:var(--muted)}
+.blk.s-cancel{background:var(--s-cancel-bg);border-color:var(--s-cancel);color:var(--muted);text-decoration:line-through}
+.blk.sel{outline:2px solid var(--primary);outline-offset:1px}
+.now{position:absolute;top:0;bottom:0;width:2px;background:var(--danger);z-index:1;pointer-events:none}
+.now::before{content:"";position:absolute;top:-1px;left:-4px;width:10px;height:10px;border-radius:50%;background:var(--danger)}
+.legend{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+/* Week */
+.week{display:grid;gap:8px}
+@media(min-width:900px){.week{grid-template-columns:repeat(7,minmax(0,1fr))}}
+.wday{background:var(--surface-2);border-radius:var(--r);padding:10px;min-height:70px}
+.wday.today{box-shadow:inset 0 0 0 2px var(--primary)}
+.wday h3{display:flex;gap:6px;align-items:baseline;font-size:.86rem;color:var(--muted);margin:0 0 8px}
+.wday h3 b{font-size:1.15rem;color:var(--ink)}
+.wday .none{color:var(--muted);font-size:.82rem;margin:0}
+.wev{display:block;width:100%;text-align:left;border:0;border-left:4px solid;border-radius:8px;padding:7px 9px;margin-bottom:6px;font-size:.8rem;line-height:1.3;background:var(--surface)}
+.wev b{display:block}
+.wev small{display:block;color:var(--muted)}
+.wev.s-pending{border-color:var(--s-pending)} .wev.s-approved{border-color:var(--s-approved)} .wev.s-assigned{border-color:var(--s-assigned)}
+.wev.s-accepted{border-color:var(--s-accepted)} .wev.s-active{border-color:var(--s-active)} .wev.s-done{border-color:var(--s-done);opacity:.75} .wev.s-cancel{border-color:var(--s-cancel);text-decoration:line-through;opacity:.7}
+/* Drivers */
+.dgrid{display:grid;gap:10px}
+@media(min-width:760px){.dgrid{grid-template-columns:1fr 1fr}}
+.dcard{border:1px solid var(--line);border-radius:var(--r-lg);padding:14px;display:flex;flex-direction:column;gap:10px}
+.dcard .hd{display:flex;gap:12px;align-items:center}
+.dcard .hd b{display:block;font-size:1.02rem}
+.dcard .hd small{color:var(--muted)}
+.stat{display:flex;gap:16px;font-size:.86rem;color:var(--muted)}
+.stat b{color:var(--ink)}
+/* Inbox */
+.inbox textarea{min-height:110px}
+.draft{margin-top:14px;border:2px solid var(--primary);border-radius:var(--r-lg);padding:16px}
+/* Detail */
+.detail{display:flex;flex-direction:column}
+.d-head{display:flex;align-items:flex-start;gap:10px;padding:16px 16px 12px;border-bottom:1px solid var(--line)}
+.d-head h2{margin:0 0 4px;font-size:1.1rem}
+.d-head .sub{color:var(--muted);font-size:.86rem}
+.d-body{padding:16px;display:flex;flex-direction:column;gap:16px}
+.d-sec{border-top:1px solid var(--line);padding-top:14px}
+.d-sec h3{font-size:.95rem;margin-bottom:8px}
+.icon-btn{border:0;background:var(--surface-2);width:40px;height:40px;border-radius:50%;font-size:1.25rem;line-height:1;flex:none;margin-left:auto}
+pre.msg{white-space:pre-wrap;background:var(--surface-2);border-radius:var(--r);padding:12px;margin:8px 0;font-family:var(--font);font-size:.92rem}
+details summary{cursor:pointer;font-weight:700;min-height:40px;display:flex;align-items:center;gap:6px}
+.declined{background:var(--s-cancel-bg);color:var(--s-cancel);border-radius:var(--r-sm);padding:9px 12px;font-weight:700;font-size:.88rem}
+.d-empty{padding:28px 18px;text-align:center;color:var(--muted)}
+.d-empty .ill{width:64px;height:64px;margin:0 auto 10px;border-radius:50%;background:var(--sand);display:grid;place-items:center;font-size:1.6rem}
+
+/* Bottom nav (manager on phones) */
+.bnav{position:fixed;left:0;right:0;bottom:0;z-index:25;background:color-mix(in srgb, var(--surface) 94%, transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr);padding:6px 6px calc(6px + env(safe-area-inset-bottom,0px))}
+.bnav button{border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;font-size:.74rem;font-weight:700;color:var(--muted);border-radius:12px;position:relative}
+.bnav button svg{width:22px;height:22px}
+.bnav button[aria-pressed="true"]{color:var(--primary);background:var(--primary-soft)}
+.bnav .n{position:absolute;top:4px;right:calc(50% - 22px);background:var(--sun);color:#3b2a00;border-radius:999px;font-size:.68rem;padding:0 6px}
+body.has-bnav{padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+.center-tabs{display:none}
+@media (max-width:1099px){
+  .mgr[data-m="trips"] .pane-center{display:none}
+  .mgr:not([data-m="trips"]) .pane-left{display:none}
+}
+@media (min-width:1100px){
+  .mgr{display:grid;grid-template-columns:340px minmax(0,1fr) 390px;gap:14px;align-items:start}
+  .pane-left,.pane-right{position:sticky;top:calc(var(--header-h) + 12px);max-height:calc(100vh - var(--header-h) - 24px);overflow:auto}
+  .pane-right{display:block}
+  .bnav{display:none}
+  body.has-bnav{padding-bottom:0}
+  .center-tabs{display:flex;margin-bottom:12px}
+  .mob-only{display:none}
+}
+
+/* Sheet dialog */
+dialog{border:0;padding:0;background:var(--surface);color:var(--ink);width:100%;max-width:620px;max-height:92dvh;margin:auto auto 0;border-radius:24px 24px 0 0;box-shadow:0 -10px 40px rgba(0,0,0,.25)}
+dialog::backdrop{background:rgba(15,20,26,.45)}
+dialog .grab{width:44px;height:5px;border-radius:999px;background:var(--line);margin:8px auto 0}
+@media (min-width:700px){dialog{margin:auto;border-radius:24px}}
+
+/* Footer & toast */
+.foot{padding:22px 18px 34px;color:var(--muted);font-size:.84rem}
+.foot .wrap{display:flex;flex-direction:column;gap:4px}
+#toast{position:fixed;left:50%;bottom:calc(22px + env(safe-area-inset-bottom,0px));transform:translateX(-50%) translateY(30px);background:var(--ink);color:var(--surface);padding:12px 18px;border-radius:999px;font-weight:700;opacity:0;pointer-events:none;transition:opacity .2s, transform .2s;z-index:80;max-width:calc(100vw - 32px);text-align:center;font-size:.94rem}
+#toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+body.has-bnav #toast{bottom:calc(92px + env(safe-area-inset-bottom,0px))}
+@media (min-width:1100px){body.has-bnav #toast{bottom:22px}}
+@media(max-width:700px){
+  .tl{--hw:58px;--lw:96px}
+  .tl-label .nm small{display:none}
+  .tl-label{gap:6px;padding:6px}
+  .tl-label .avatar{width:28px;height:28px;font-size:.72rem}
+}
+@media(max-width:520px){
+  .topnav .nav-home{display:none}
+  .brand small{display:none}
+  .topnav button{padding:9px 10px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main" id="skip">Saltar al contenido</a>
+<div id="root"></div>
+<dialog id="sheet" aria-labelledby="d-title"></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+<noscript><p style="padding:20px">Este prototipo necesita JavaScript. / This prototype needs JavaScript.</p></noscript>
+
+<script>
+(function(){
+'use strict';
+
+/* ---------- Utilities ---------- */
+var STORE_KEY = 'eladio-demo-v2', LANG_KEY = 'eladio-demo-lang';
+function pad(n){ return String(n).padStart(2,'0'); }
+function ymd(d){ return d.getFullYear()+'-'+pad(d.getMonth()+1)+'-'+pad(d.getDate()); }
+function parseYmd(s){ var p = s.split('-').map(Number); return new Date(p[0], p[1]-1, p[2]); }
+function addDays(s,n){ var d = parseYmd(s); d.setDate(d.getDate()+n); return ymd(d); }
+function todayStr(){ return ymd(new Date()); }
+function startOfWeek(s){ var d = parseYmd(s); var dow = (d.getDay()+6)%7; d.setDate(d.getDate()-dow); return ymd(d); }
+function esc(v){ return String(v == null ? '' : v).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+function uid(){ return 'r' + Date.now().toString(36) + Math.random().toString(36).slice(2,6); }
+function lsGet(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }
+function lsSet(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+function lsDel(k){ try { localStorage.removeItem(k); } catch(e){} }
+function norm(s){ return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,''); }
+function isWide(){ return window.matchMedia && window.matchMedia('(min-width:1100px)').matches; }
+
+/* ---------- Text (ES / EN) ---------- */
+var T = {
+es: {
+  docTitle:'Eladio Transport · Prototipo', skip:'Saltar al contenido', tagline:'Punta Hermosa, Lima',
+  navIntro:'Inicio', navApp:'Prototipo', demoPill:'Prototipo con datos de ejemplo. No está conectado a WhatsApp ni a una base de datos.',
+  heroKicker:'Eladio, esto es una idea para conversar contigo.',
+  heroL1:'Más organización.', heroL2:'Menos mensajes.', heroL3:'El mismo servicio de confianza.',
+  heroBody:'Un solo lugar, desde tu celular, para ver los pedidos de viaje, tu calendario, tus conductores de confianza y los mensajes para tus clientes. Tú sigues decidiendo quién maneja y cuánto se cobra.',
+  heroWarn:'Esto es solo un prototipo con datos de ejemplo; no está conectado a una base de datos ni a WhatsApp.',
+  ctaExplore:'Explorar prototipo', ctaHow:'Cómo funciona', timeHint:'Puedes recorrerlo en unos 5 a 10 minutos.',
+  howTitle:'Cómo funciona',
+  how1t:'Llega un pedido', how1:'Un cliente te escribe por WhatsApp, como siempre, o pide desde un formulario corto.',
+  how2t:'Tú lo revisas', how2:'Confirmas recojo, destino, fecha, hora y pasajeros, y escribes la tarifa en soles.',
+  how3t:'Eliges al conductor', how3:'Tú mismo o alguien de tu equipo de confianza. El viaje aparece en tu agenda.',
+  how4t:'Confirmas por WhatsApp', how4:'La app prepara el mensaje. Tú lo envías desde tu propio WhatsApp.',
+  how5t:'El conductor avisa', how5:'Acepta el viaje y marca cuando llegó, cuando subió el pasajero y cuando terminó.',
+  how6t:'Anotas el pago', how6:'Efectivo, Yape, Plin o transferencia. Solo marcas si ya está pagado.',
+  rolesTitle:'Tres vistas para probar',
+  roleMgr:'Eladio', roleMgrLong:'Vista de Eladio', roleMgrDesc:'Pedidos, agenda por conductor, mensajes y pagos.',
+  roleDrv:'Conductor', roleDrvLong:'Vista del conductor', roleDrvDesc:'El siguiente viaje y botones grandes para avisar cómo va.',
+  roleRdr:'Familia', roleRdrLong:'Vista de la familia', roleRdrDesc:'Pedir un viaje en pocos toques y ver quién lo maneja.',
+  openView:'Abrir esta vista',
+  worksTitle:'Qué funciona en esta demo', notTitle:'Qué no está conectado todavía',
+  works:['Cambiar entre español e inglés','Cambiar entre las vistas de Eladio, conductor y familia','Pedir un viaje paso a paso, con lugares guardados','Pegar un mensaje de WhatsApp de ejemplo y convertirlo en borrador','Revisar un pedido, poner la tarifa en S/ y asignar o cambiar de conductor','Agenda del día por conductor; en computadora puedes arrastrar un viaje a otro conductor','Vista de semana, con flechas para moverse','Botones del conductor: aceptar, rechazar, llegué, a bordo, terminado','Marcar un viaje como pagado o no pagado','Mensajes listos para copiar o abrir en WhatsApp','Enlaces a Google Maps y Waze','Los cambios se guardan solo en este celular; "Reiniciar demo" vuelve al inicio'],
+  nots:['No hay cuentas ni contraseñas: el selector de vistas no es seguridad','No lee tu WhatsApp ni envía mensajes solo','No hay GPS en tiempo real','No calcula rutas, tiempos ni precios','No revisa choques de horario entre viajes','No cobra ni mueve dinero','Los datos no se comparten entre teléfonos','No debe usarse con datos reales de clientes ni de menores'],
+  fbTitle:'Lo que más importa: tu opinión', fbIntro:'Cuando termines de explorar, ¿nos cuentas?',
+  fbQ1:'¿Qué te parece más útil?', fbQ2:'¿Qué falta?', fbQ3:'¿Qué es lo más difícil hoy de manejar las reservas?',
+  fbWa:'Enviar respuestas por WhatsApp', fbCopy:'Copiar respuestas',
+  fbNote:'Tus respuestas no se guardan aquí. El botón abre WhatsApp con el texto listo y tú eliges a quién enviarlo.',
+  fbHeader:'Comentarios sobre el prototipo de Eladio Transport',
+  footA:'Prototipo de demostración. Todos los nombres de clientes, conductores y viajes son ficticios, excepto Eladio.',
+  footB:'No hay inicio de sesión, cifrado ni protección de datos real. No ingreses datos reales de clientes ni de menores.',
+  viewAs:'Ver como', roleWarn:'Solo para la demo: no es un inicio de sesión.',
+  reset:'Reiniciar demo', resetConfirm:'¿Borrar tus cambios y volver a los datos de ejemplo?', resetDone:'Demo reiniciada con datos de ejemplo',
+  localNote:'Los cambios se guardan solo en este dispositivo.',
+  kPending:'Por revisar', kToday:'Viajes hoy', kUnassigned:'Sin conductor', kUnpaid:'Sin pagar',
+  mTrips:'Viajes', mAgenda:'Agenda', mDrivers:'Conductores', mInbox:'WhatsApp',
+  attTitle:'Necesita tu atención', attNone:'Todo en orden por ahora.',
+  attPending:'Pedido nuevo · {route}', attDeclined:'{name} no puede · {route}', attNoDriver:'Falta conductor · {route}',
+  attNotAccepted:'{name} aún no acepta · {route}', attUnpaid:'Sin pagar · {route}',
+  fPending:'Por revisar', fScheduled:'Programados', fActive:'En curso', fClosed:'Terminados', fUnpaid:'Sin pagar', fToday:'Hoy',
+  st_pending:'Por revisar', st_approved:'Sin conductor', st_assigned:'Esperando al conductor', st_accepted:'Confirmado',
+  st_arrived:'Conductor llegó', st_onboard:'En camino', st_completed:'Completado', st_cancelled:'Cancelado',
+  unassigned:'Sin conductor', paid:'Pagado', unpaid:'Sin pagar', fareTBD:'Tarifa por definir',
+  paxN:'{n} pas.', paxLong:'{n} pasajero(s)', empty:'No hay viajes en esta lista.',
+  declinedBy:'{name} rechazó este viaje. Elige otro conductor.',
+  fromWa:'Llegó por WhatsApp', fromForm:'Llegó por formulario',
+  calDay:'Día', calWeek:'Semana', calToday:'Hoy', calPrev:'Anterior', calNext:'Siguiente',
+  tlNote:'Cada bloque dura 1 hora solo para dibujarlo. En computadora, arrastra un viaje a la fila de otro conductor para reasignarlo. Todavía no se revisan choques de horario.',
+  calWarn:'La revisión de choques de horario todavía no funciona. Revisa tú mismo que un conductor no tenga dos viajes muy seguidos.',
+  calNone:'Sin viajes', todayTag:'Hoy', legend:'Colores', noDriverRow:'Sin conductor', dropHere:'Suelta aquí',
+  dropAssigned:'Asignado a {name}. Debe aceptar el viaje.', dropUnassigned:'Viaje sin conductor', dropBlocked:'Este viaje ya no se puede mover',
+  drvNote:'Cada conductor marca su disponibilidad a mano. La app no la verifica.',
+  owner:'Dueño y coordinador', available:'Disponible', unavailable:'No disponible', weekRides:'esta semana', nextShort:'siguiente',
+  seeAsDriver:'Ver su vista', noneSoon:'ninguno',
+  inboxTitle:'Bandeja de WhatsApp (simulada)',
+  inboxNote:'Pega un mensaje de un cliente. La demo busca datos simples con palabras clave: no es inteligencia artificial y no está conectada a tu WhatsApp. Siempre revisa todo antes de guardar.',
+  inboxLabel:'Mensaje del cliente', inboxPh:'Ejemplo: Hola Eladio, ¿mañana a las 7 de la mañana me llevas de Punta Hermosa a Miraflores? Somos 2.',
+  samples:'Mensajes de ejemplo', sample:'Ejemplo {n}', makeDraft:'Convertir en borrador', needText:'Primero pega o elige un mensaje.',
+  draftTitle:'Borrador de pedido', draftNote:'Los campos marcados "Revisar" no se encontraron con claridad. No se inventa nada: complétalos tú.',
+  found:'Encontrado', check:'Revisar', createReq:'Guardar como pedido por revisar', discard:'Descartar', draftSaved:'Pedido guardado en "Por revisar"', discarded:'Borrador descartado',
+  fCustomer:'Cliente', fPassenger:'Pasajero', fPickup:'Recojo', fDropoff:'Destino', fDate:'Fecha', fTime:'Hora', fPax:'Pasajeros', fNotes:'Indicaciones', fContact:'Contacto',
+  fFare:'Tarifa', fDriver:'Conductor', fOrig:'Mensaje original', optional:'opcional', contactHint:'no pongas números reales en la demo',
+  noDriver:'Sin conductor todavía', notAvailSuffix:'(no disponible)', tripDetails:'Datos del viaje',
+  approveSave:'Aprobar pedido', saveChanges:'Guardar cambios', saved:'Cambios guardados', approved:'Pedido aprobado', assignedTo:'Asignado a {name}. Debe aceptar el viaje.',
+  payTitle:'Pago', markPaid:'Marcar como pagado', markUnpaid:'Marcar como no pagado', payNote:'Solo anota el pago (efectivo, Yape, Plin o transferencia). La app no mueve dinero.',
+  paidDone:'Marcado como pagado', unpaidDone:'Marcado como no pagado',
+  msgTitle:'Mensaje para el cliente', copy:'Copiar', copied:'Copiado', copyFail:'No se pudo copiar. Selecciona el texto a mano.',
+  openWa:'Abrir en WhatsApp', waNote:'Se abre WhatsApp con el texto listo; tú eliges el chat y lo envías. Nada se envía solo.',
+  cancelRide:'Cancelar viaje', cancelConfirm:'¿Cancelar este viaje?', cancelled:'Viaje cancelado', close:'Cerrar',
+  pickRide:'Elige un viaje de la lista o de la agenda para ver el detalle aquí.',
+  drvTitle:'Hola, {name}', drvPick:'Conductor de ejemplo', drvPrivacy:'En la versión real, cada conductor solo vería sus propios viajes y lo necesario del pasajero.',
+  nextUp:'Tu siguiente viaje', today:'Hoy', upcoming:'Próximos', recent:'Terminados recientes', noRidesToday:'No tienes más viajes hoy.', noUpcoming:'No tienes viajes próximos.', noRecent:'Nada reciente.',
+  accept:'Aceptar viaje', dsAssigned:'Nuevo, por aceptar', decline:'No puedo', arrivedBtn:'Llegué al recojo', onboardBtn:'Pasajero a bordo', completeBtn:'Terminar viaje',
+  declineConfirm:'¿Rechazar este viaje? Eladio tendrá que asignar a otra persona.',
+  tAccepted:'Viaje aceptado', tDeclined:'Viaje rechazado. Eladio verá el aviso.', tArrived:'Avisaste que llegaste', tOnboard:'Viaje en curso', tCompleted:'Viaje terminado',
+  maps:'Google Maps', waze:'Waze al recojo', wazeDest:'Waze al destino', passenger:'Pasajero', notes:'Indicaciones',
+  availOn:'Ahora estás disponible', availOff:'Ahora no estás disponible', availOnM:'{name}: disponible', availOffM:'{name}: no disponible',
+  hello:'Hola, {name}', famPick:'Familia de ejemplo', nextRide:'Tu próximo viaje',
+  waitingEladio:'Eladio está revisando tu pedido. Te confirmará conductor y tarifa.', trusted:'Conductor de confianza',
+  bookTitle:'¿A dónde vamos?', stepOf:'Paso {n} de 4', s1:'Ruta', s2:'Fecha y hora', s3:'Quién viaja', s4:'Revisa y envía',
+  from:'Desde', to:'Hacia', fromPh:'¿Dónde te recogemos?', toPh:'¿A dónde vas?', swap:'Intercambiar recojo y destino',
+  savedPlaces:'Tus lugares', setFrom:'Desde', setTo:'Hacia', savedNote:'Lugares de ejemplo. En la versión real, cada familia guardaría los suyos.',
+  dToday:'Hoy', dTomorrow:'Mañana', dAfter:'Pasado mañana', pickDate:'Otra fecha', pickTime:'Hora de recojo',
+  whoRides:'Nombre de quien viaja', paxCount:'Pasajeros', less:'Uno menos', more:'Uno más',
+  next:'Continuar', back:'Atrás', send:'Enviar pedido', edit:'Cambiar',
+  notConfirmed:'Un pedido no es una reserva confirmada hasta que Eladio lo apruebe.',
+  sentToast:'Pedido enviado. Aún no está confirmado.', needRoute:'Escribe desde dónde y hacia dónde.', needWhen:'Elige la fecha y la hora.', required:'Completa recojo, destino, fecha y hora.',
+  upcomingRides:'Próximos viajes', pastRides:'Viajes anteriores', noMine:'Todavía no tienes otros viajes.',
+  rdrPrivacy:'En la versión real, cada familia solo vería sus propios viajes.',
+  rs_pending:'Esperando a Eladio', rs_approved:'Aprobado', rs_assigned:'Confirmado', rs_accepted:'Confirmado',
+  rs_arrived:'Tu conductor llegó', rs_onboard:'En camino', rs_completed:'Completado', rs_cancelled:'Cancelado',
+  fare:'Tarifa', payment:'Pago', writeEladio:'Escribir a Eladio',
+  waRider:'Hola Eladio, te escribo por mi viaje del {date} a las {time} ({pickup} a {dropoff}).',
+  rel_today:'Hoy', rel_tomorrow:'Mañana', rel_yesterday:'Ayer'
+},
+en: {
+  docTitle:'Eladio Transport · Prototype', skip:'Skip to content', tagline:'Punta Hermosa, Lima',
+  navIntro:'Home', navApp:'Prototype', demoPill:'Prototype with sample data. Not connected to WhatsApp or a database.',
+  heroKicker:'Eladio, this is an idea to talk through with you.',
+  heroL1:'More organization.', heroL2:'Fewer messages.', heroL3:'The same trusted service.',
+  heroBody:'One place, on your phone, to see ride requests, your calendar, your trusted drivers and messages for your customers. You still decide who drives and what it costs.',
+  heroWarn:'This is only a prototype with sample data; it is not connected to a database or to WhatsApp.',
+  ctaExplore:'Explore the prototype', ctaHow:'How it works', timeHint:'You can walk through it in about 5 to 10 minutes.',
+  howTitle:'How it works',
+  how1t:'A request comes in', how1:'A customer writes on WhatsApp, as always, or asks through a short form.',
+  how2t:'You review it', how2:'You confirm pickup, destination, date, time and passengers, and enter the fare in soles.',
+  how3t:'You choose the driver', how3:'Yourself or someone on your trusted team. The ride shows up in your schedule.',
+  how4t:'You confirm on WhatsApp', how4:'The app prepares the message. You send it from your own WhatsApp.',
+  how5t:'The driver updates', how5:'Accepts the ride and marks arrived, passenger on board and completed.',
+  how6t:'You record payment', how6:'Cash, Yape, Plin or bank transfer. You just mark whether it’s paid.',
+  rolesTitle:'Three views to try',
+  roleMgr:'Eladio', roleMgrLong:'Eladio’s view', roleMgrDesc:'Requests, schedule by driver, messages and payments.',
+  roleDrv:'Driver', roleDrvLong:'Driver view', roleDrvDesc:'The next ride and big buttons to report progress.',
+  roleRdr:'Family', roleRdrLong:'Family view', roleRdrDesc:'Request a ride in a few taps and see who’s driving.',
+  openView:'Open this view',
+  worksTitle:'What works in this demo', notTitle:'What is not connected yet',
+  works:['Switch between Spanish and English','Switch between Eladio, driver and family views','Request a ride step by step, with saved places','Paste a sample WhatsApp message and turn it into a draft','Review a request, set the fare in S/ and assign or change the driver','Day schedule by driver; on a computer you can drag a ride to another driver','Week view, with arrows to move around','Driver buttons: accept, decline, arrived, on board, completed','Mark a ride as paid or unpaid','Messages ready to copy or open in WhatsApp','Google Maps and Waze links','Changes are saved only on this phone; “Reset demo” starts over'],
+  nots:['No accounts or passwords: the view switcher is not security','It does not read your WhatsApp or send messages by itself','No live GPS','No route, travel-time or price calculation','No checking for schedule conflicts between rides','No payments or money movement','Data is not shared between phones','Must not be used with real customer or children’s data'],
+  fbTitle:'What matters most: your opinion', fbIntro:'When you’re done exploring, will you tell us?',
+  fbQ1:'What seems most useful?', fbQ2:'What is missing?', fbQ3:'What is the hardest part of managing bookings today?',
+  fbWa:'Send answers on WhatsApp', fbCopy:'Copy answers',
+  fbNote:'Your answers aren’t stored here. The button opens WhatsApp with the text ready and you choose who to send it to.',
+  fbHeader:'Feedback on the Eladio Transport prototype',
+  footA:'Demo prototype. All customer, driver and ride names are fictional, except Eladio.',
+  footB:'No real login, encryption or data protection. Do not enter real customer or children’s data.',
+  viewAs:'View as', roleWarn:'Demo only: this is not a login.',
+  reset:'Reset demo', resetConfirm:'Erase your changes and go back to the sample data?', resetDone:'Demo reset to sample data',
+  localNote:'Changes are saved only on this device.',
+  kPending:'To review', kToday:'Rides today', kUnassigned:'No driver', kUnpaid:'Unpaid',
+  mTrips:'Rides', mAgenda:'Schedule', mDrivers:'Drivers', mInbox:'WhatsApp',
+  attTitle:'Needs your attention', attNone:'All clear for now.',
+  attPending:'New request · {route}', attDeclined:'{name} can’t make it · {route}', attNoDriver:'Needs a driver · {route}',
+  attNotAccepted:'{name} hasn’t accepted · {route}', attUnpaid:'Unpaid · {route}',
+  fPending:'To review', fScheduled:'Scheduled', fActive:'In progress', fClosed:'Finished', fUnpaid:'Unpaid', fToday:'Today',
+  st_pending:'To review', st_approved:'No driver', st_assigned:'Waiting for driver', st_accepted:'Confirmed',
+  st_arrived:'Driver arrived', st_onboard:'On the way', st_completed:'Completed', st_cancelled:'Cancelled',
+  unassigned:'No driver', paid:'Paid', unpaid:'Unpaid', fareTBD:'Fare not set',
+  paxN:'{n} pax', paxLong:'{n} passenger(s)', empty:'No rides in this list.',
+  declinedBy:'{name} declined this ride. Choose another driver.',
+  fromWa:'Came in on WhatsApp', fromForm:'Came in from the form',
+  calDay:'Day', calWeek:'Week', calToday:'Today', calPrev:'Previous', calNext:'Next',
+  tlNote:'Each block lasts 1 hour only so it can be drawn. On a computer, drag a ride to another driver’s row to reassign it. Schedule conflicts are not checked yet.',
+  calWarn:'Schedule-conflict checking does not work yet. Check yourself that a driver doesn’t have two rides too close together.',
+  calNone:'No rides', todayTag:'Today', legend:'Colors', noDriverRow:'No driver', dropHere:'Drop here',
+  dropAssigned:'Assigned to {name}. They need to accept.', dropUnassigned:'Ride has no driver now', dropBlocked:'This ride can’t be moved anymore',
+  drvNote:'Each driver sets their availability by hand. The app does not verify it.',
+  owner:'Owner and coordinator', available:'Available', unavailable:'Not available', weekRides:'this week', nextShort:'next',
+  seeAsDriver:'See their view', noneSoon:'none',
+  inboxTitle:'WhatsApp inbox (simulated)',
+  inboxNote:'Paste a customer message. The demo looks for simple details using keywords: it is not artificial intelligence and it is not connected to your WhatsApp. Always review everything before saving.',
+  inboxLabel:'Customer message', inboxPh:'Example: Hi Eladio, can you take us from Punta Hermosa to Miraflores tomorrow at 7 am? We are 2.',
+  samples:'Sample messages', sample:'Sample {n}', makeDraft:'Turn into a draft', needText:'Paste or choose a message first.',
+  draftTitle:'Draft request', draftNote:'Fields marked “Check” weren’t found clearly. Nothing is made up: fill them in yourself.',
+  found:'Found', check:'Check', createReq:'Save as request to review', discard:'Discard', draftSaved:'Request saved under “To review”', discarded:'Draft discarded',
+  fCustomer:'Customer', fPassenger:'Passenger', fPickup:'Pickup', fDropoff:'Destination', fDate:'Date', fTime:'Time', fPax:'Passengers', fNotes:'Instructions', fContact:'Contact',
+  fFare:'Fare', fDriver:'Driver', fOrig:'Original message', optional:'optional', contactHint:'don’t use real numbers in the demo',
+  noDriver:'No driver yet', notAvailSuffix:'(not available)', tripDetails:'Trip details',
+  approveSave:'Approve request', saveChanges:'Save changes', saved:'Changes saved', approved:'Request approved', assignedTo:'Assigned to {name}. They need to accept.',
+  payTitle:'Payment', markPaid:'Mark as paid', markUnpaid:'Mark as unpaid', payNote:'This only records payment (cash, Yape, Plin or transfer). The app does not move money.',
+  paidDone:'Marked as paid', unpaidDone:'Marked as unpaid',
+  msgTitle:'Message for the customer', copy:'Copy', copied:'Copied', copyFail:'Couldn’t copy. Select the text by hand.',
+  openWa:'Open in WhatsApp', waNote:'WhatsApp opens with the text ready; you choose the chat and send it. Nothing is sent automatically.',
+  cancelRide:'Cancel ride', cancelConfirm:'Cancel this ride?', cancelled:'Ride cancelled', close:'Close',
+  pickRide:'Choose a ride from the list or the schedule to see its details here.',
+  drvTitle:'Hi, {name}', drvPick:'Sample driver', drvPrivacy:'In the real version, each driver would only see their own rides and what they need about the passenger.',
+  nextUp:'Your next ride', today:'Today', upcoming:'Upcoming', recent:'Recently completed', noRidesToday:'No more rides today.', noUpcoming:'No upcoming rides.', noRecent:'Nothing recent.',
+  accept:'Accept ride', dsAssigned:'New, please accept', decline:'I can’t', arrivedBtn:'I’ve arrived', onboardBtn:'Passenger on board', completeBtn:'Complete ride',
+  declineConfirm:'Decline this ride? Eladio will need to assign someone else.',
+  tAccepted:'Ride accepted', tDeclined:'Ride declined. Eladio will see the notice.', tArrived:'Marked as arrived', tOnboard:'Ride in progress', tCompleted:'Ride completed',
+  maps:'Google Maps', waze:'Waze to pickup', wazeDest:'Waze to destination', passenger:'Passenger', notes:'Instructions',
+  availOn:'You’re now available', availOff:'You’re now not available', availOnM:'{name}: available', availOffM:'{name}: not available',
+  hello:'Hi, {name}', famPick:'Sample family', nextRide:'Your next ride',
+  waitingEladio:'Eladio is reviewing your request. He’ll confirm the driver and fare.', trusted:'Trusted driver',
+  bookTitle:'Where are we going?', stepOf:'Step {n} of 4', s1:'Route', s2:'Date and time', s3:'Who’s riding', s4:'Review and send',
+  from:'From', to:'To', fromPh:'Where should we pick you up?', toPh:'Where are you going?', swap:'Swap pickup and destination',
+  savedPlaces:'Your places', setFrom:'From', setTo:'To', savedNote:'Sample places. In the real version, each family would save its own.',
+  dToday:'Today', dTomorrow:'Tomorrow', dAfter:'Day after', pickDate:'Other date', pickTime:'Pickup time',
+  whoRides:'Name of who’s riding', paxCount:'Passengers', less:'One fewer', more:'One more',
+  next:'Continue', back:'Back', send:'Send request', edit:'Change',
+  notConfirmed:'A request is not a confirmed booking until Eladio approves it.',
+  sentToast:'Request sent. It isn’t confirmed yet.', needRoute:'Enter where from and where to.', needWhen:'Choose the date and time.', required:'Fill in pickup, destination, date and time.',
+  upcomingRides:'Upcoming rides', pastRides:'Past rides', noMine:'No other rides yet.',
+  rdrPrivacy:'In the real version, each family would only see its own rides.',
+  rs_pending:'Waiting for Eladio', rs_approved:'Approved', rs_assigned:'Confirmed', rs_accepted:'Confirmed',
+  rs_arrived:'Your driver has arrived', rs_onboard:'On the way', rs_completed:'Completed', rs_cancelled:'Cancelled',
+  fare:'Fare', payment:'Payment', writeEladio:'Message Eladio',
+  waRider:'Hi Eladio, I’m writing about my ride on {date} at {time} ({pickup} to {dropoff}).',
+  rel_today:'Today', rel_tomorrow:'Tomorrow', rel_yesterday:'Yesterday'
+}};
+
+var MSG = {
+es: {
+  pending:'Hola {customer}, recibí tu pedido para el {date} a las {time} ({pickup} a {dropoff}). En breve te confirmo conductor y tarifa. Gracias.\n— Eladio',
+  confirm:'Hola {customer}, te confirmo el viaje:\n• Fecha: {date}, {time}\n• Recojo: {pickup}\n• Destino: {dropoff}\n• Pasajeros: {pax}\n• Conductor: {driver}\n• Tarifa: {fare}\nCualquier cambio me avisas por aquí. Gracias.\n— Eladio',
+  arrived:'Hola {customer}, {driver} ya llegó al punto de recojo ({pickup}).',
+  onboard:'Hola {customer}, el viaje ya está en camino a {dropoff}. Conductor: {driver}.',
+  completed:'Gracias, {customer}. Viaje terminado. Tarifa: {fare}. Puedes pagar en efectivo, Yape, Plin o transferencia.\n— Eladio',
+  cancelled:'Hola {customer}, el viaje del {date} a las {time} quedó cancelado. Cualquier cosa me escribes.\n— Eladio',
+  tbd:'por confirmar'
+},
+en: {
+  pending:'Hi {customer}, I got your request for {date} at {time} ({pickup} to {dropoff}). I’ll confirm the driver and fare shortly. Thank you.\n— Eladio',
+  confirm:'Hi {customer}, your ride is confirmed:\n• Date: {date}, {time}\n• Pickup: {pickup}\n• Destination: {dropoff}\n• Passengers: {pax}\n• Driver: {driver}\n• Fare: {fare}\nLet me know here if anything changes. Thank you.\n— Eladio',
+  arrived:'Hi {customer}, {driver} has arrived at the pickup point ({pickup}).',
+  onboard:'Hi {customer}, the ride is on its way to {dropoff}. Driver: {driver}.',
+  completed:'Thank you, {customer}. Ride completed. Fare: {fare}. You can pay by cash, Yape, Plin or bank transfer.\n— Eladio',
+  cancelled:'Hi {customer}, the ride on {date} at {time} has been cancelled. Write me with any questions.\n— Eladio',
+  tbd:'to be confirmed'
+}};
+
+
+function fill(s, vars){ return String(s).replace(/\{(\w+)\}/g, function(m,k){ return vars && vars[k] != null ? vars[k] : ''; }); }
+function tl(lang, k, vars){ var s = T[lang][k]; if (s == null) s = T.es[k]; if (s == null) return k; return vars ? fill(s, vars) : s; }
+function t(k, vars){ return tl(ui.lang, k, vars); }
+
+/* ---------- Sample data ---------- */
+function seed(){
+  var D = todayStr();
+  var drivers = [
+    {id:'d1', name:'Eladio', owner:true, available:true, color:'#2b63d9', vehicle:{es:'Auto principal, 4 asientos',en:'Main car, 4 seats'}},
+    {id:'d2', name:'Carlos (ejemplo)', available:true, color:'#d9733b', vehicle:{es:'Sedán gris, 4 asientos',en:'Gray sedan, 4 seats'}},
+    {id:'d3', name:'Rosa (ejemplo)', available:true, color:'#1e9e6a', vehicle:{es:'Minivan blanca, 7 asientos',en:'White minivan, 7 seats'}},
+    {id:'d4', name:'Jorge (ejemplo)', available:false, color:'#7c5cd6', vehicle:{es:'Camioneta azul, 5 asientos',en:'Blue SUV, 5 seats'}}
+  ];
+  var families = [
+    {id:'f1', name:'Familia Ejemplo', places:[{l:'Casa',a:'Casa, Punta Hermosa'},{l:'Aeropuerto',a:'Aeropuerto Jorge Chávez'},{l:'Clínica',a:'Clínica, Miraflores'}]},
+    {id:'f2', name:'Familia Demo', places:[{l:'Casa',a:'Casa, Punta Hermosa'},{l:'Colegio',a:'Colegio, Surco'},{l:'Club',a:'Club, Lurín'}]},
+    {id:'f3', name:'Familia Prueba', places:[{l:'Casa',a:'Casa, Punta Hermosa'},{l:'Playa',a:'Playa El Silencio'},{l:'Larcomar',a:'Larcomar, Miraflores'}]}
+  ];
+  function R(o, src, time, fam, pass, pick, drop, pax, notes, fare, paid, drv, status, extra){
+    var fm = families.filter(function(x){return x.id===fam;})[0];
+    var r = {id:'s'+(o+5)+time.replace(':',''), date:addDays(D,o), time:time, familyId:fam, customer:fm.name, passenger:pass,
+      pickup:pick, dropoff:drop, pax:pax, notes:notes, contact:'', fare:fare, paid:paid, driverId:drv, status:status,
+      source:src, declinedBy:null, sourceMessage:''};
+    if (extra) for (var k in extra) r[k]=extra[k];
+    return r;
+  }
+  var rides = [
+    R(-2,'wa','06:00','f1','Sra. Ejemplo','Casa, Punta Hermosa','Aeropuerto Jorge Chávez',2,'Dos maletas grandes',120,true,'d1','completed'),
+    R(-1,'form','15:30','f2','Estudiante (Familia Demo)','Colegio, Surco','Casa, Punta Hermosa',1,'Recoger en la puerta principal',70,false,'d2','completed'),
+    R(-1,'wa','08:00','f3','Familia Prueba','Punta Negra','Playa El Silencio',3,'',25,true,'d4','completed'),
+    R(0,'form','07:15','f2','Estudiante (Familia Demo)','Casa, Punta Hermosa','Colegio, Surco',1,'Llevar la lonchera que está en la puerta',70,false,'d2','accepted'),
+    R(0,'wa','10:00','f1','Sr. Ejemplo','Casa, Punta Hermosa','Clínica, Miraflores',1,'Cita a las 11:00',80,false,'d1','assigned'),
+    R(0,'wa','13:30','f3','Familia Prueba','Playa El Silencio','Casa, Punta Hermosa',2,'Con tablas de surf',25,false,'d3','accepted'),
+    R(0,'wa','18:30','f3','Familia Prueba','Casa, Punta Hermosa','Larcomar, Miraflores',4,'Regreso por confirmar',null,false,null,'pending',
+      {sourceMessage:'Hola Eladio, soy de la Familia Prueba. ¿Hoy a las 6:30 pm nos llevas de Punta Hermosa a Larcomar? Somos 4.'}),
+    R(1,'wa','05:30','f1','Sra. Ejemplo','Casa, Punta Hermosa','Aeropuerto Jorge Chávez',3,'Vuelo 8:30 a. m.',120,false,null,'approved'),
+    R(1,'form','16:00','f2','Estudiante (Familia Demo)','Casa, Punta Hermosa','Club, Lurín',1,'Clase de natación',40,false,null,'approved',{declinedBy:'Jorge (ejemplo)'}),
+    R(2,'wa','09:00','f3','Familia Prueba','Casa, Punta Hermosa','Boulevard de Asia',2,'',60,false,'d3','accepted'),
+    R(3,'form','14:00','f2','Estudiante (Familia Demo)','Colegio, Surco','Casa, Punta Hermosa',1,'Recoger en la puerta principal',70,false,'d2','assigned'),
+    R(4,'wa','20:00','f1','Sr. Ejemplo','Barranco, Lima','Casa, Punta Hermosa',2,'',null,false,null,'pending',
+      {sourceMessage:'Eladio, ¿el viernes a las 8 de la noche nos recoges en Barranco para volver a Punta Hermosa? Somos 2.'}),
+    R(5,'wa','11:00','f3','Familia Prueba','San Bartolo','Casa, Punta Hermosa',1,'',35,false,'d1','accepted')
+  ];
+  return {drivers:drivers, families:families, rides:rides};
+}
+function load(){
+  var raw = lsGet(STORE_KEY); if (!raw) return null;
+  try { var d = JSON.parse(raw); if (d && d.rides && d.drivers && d.families) return d; } catch(e){}
+  return null;
+}
+function save(){ lsSet(STORE_KEY, JSON.stringify(data)); }
+
+var data = load() || seed();
+var savedLang = lsGet(LANG_KEY);
+function freshBook(){ var f = famNow(); return {step:1, pickup:'', dropoff:'', date:addDays(todayStr(),1), time:'', passenger: f ? f.name : '', pax:1, notes:'', contact:''}; }
+var ui = {
+  lang: (savedLang === 'en' || savedLang === 'es') ? savedLang : 'es',
+  view: (location.hash === '#prototipo') ? 'app' : 'intro',
+  role:'manager', m:'trips', filter:'pending',
+  calMode:'day', calDate: todayStr(),
+  driverId:'d2', familyId:'f1',
+  inboxText:'', draft:null, sel:null, fresh:false, msgLang:null,
+  fb:['','',''], book:null
+};
+function famNow(){ return data.families.filter(function(f){return f.id===(ui ? ui.familyId : 'f1');})[0] || data.families[0]; }
+ui.book = freshBook();
+
+/* ---------- Lookups & formatting ---------- */
+function driverById(id){ return data.drivers.filter(function(d){return d.id===id;})[0] || null; }
+function rideById(id){ return data.rides.filter(function(r){return r.id===id;})[0] || null; }
+function locale(lang){ return (lang||ui.lang)==='es' ? 'es-PE' : 'en-US'; }
+function fmtDate(s, lang, long){
+  var o = long ? {weekday:'long', day:'numeric', month:'long'} : {weekday:'short', day:'numeric', month:'short'};
+  return new Intl.DateTimeFormat(locale(lang), o).format(parseYmd(s));
+}
+function fmtTime(tm, lang){
+  if (!tm) return '—';
+  var p = tm.split(':').map(Number);
+  return new Intl.DateTimeFormat(locale(lang), {hour:'numeric', minute:'2-digit'}).format(new Date(2000,0,1,p[0],p[1]||0));
+}
+function relDay(s){ var D = todayStr(); if (s===D) return t('rel_today'); if (s===addDays(D,1)) return t('rel_tomorrow'); if (s===addDays(D,-1)) return t('rel_yesterday'); return ''; }
+function dayShort(s){ return relDay(s) || new Intl.DateTimeFormat(locale(), {weekday:'short', day:'numeric'}).format(parseYmd(s)); }
+function whenLabel(r){ var rel = relDay(r.date); return (rel ? rel + ', ' : '') + fmtDate(r.date) + ', ' + fmtTime(r.time); }
+function money(n){ return (n == null || n === '' || isNaN(n)) ? null : 'S/ ' + Number(n).toFixed(2); }
+function short(s, n){ s = String(s||''); n = n||26; return s.length > n ? s.slice(0,n-1) + '…' : s; }
+function routeShort(r, n){ return short(r.pickup, n||20) + ' → ' + short(r.dropoff, n||20); }
+function sc(st){ return {pending:'pending',approved:'approved',assigned:'assigned',accepted:'accepted',arrived:'active',onboard:'active',completed:'done',cancelled:'cancel'}[st] || 'pending'; }
+function badge(st, rider){ return '<span class="badge b-'+sc(rider && st==='assigned' ? 'accepted' : st)+'">'+esc(t((rider?'rs_':'st_')+st))+'</span>'; }
+function sortAsc(a,b){ return (a.date+a.time).localeCompare(b.date+b.time); }
+function sortDesc(a,b){ return sortAsc(b,a); }
+function initials(n){ return String(n).replace(/\(.*?\)/g,'').trim().split(/\s+/).map(function(w){return w[0];}).join('').slice(0,2).toUpperCase(); }
+function avatar(d, cls){ return d ? '<span class="avatar '+(cls||'')+'" style="background:'+d.color+'" aria-hidden="true">'+esc(initials(d.name))+'</span>' : '<span class="avatar none '+(cls||'')+'" aria-hidden="true">?</span>'; }
+function mapsUrl(r){ return 'https://www.google.com/maps/dir/?api=1&origin='+encodeURIComponent(r.pickup+', Lima, Perú')+'&destination='+encodeURIComponent(r.dropoff+', Lima, Perú'); }
+function wazeUrl(place){ return 'https://waze.com/ul?q='+encodeURIComponent(place+', Lima, Perú')+'&navigate=yes'; }
+function waUrl(text){ return 'https://wa.me/?text='+encodeURIComponent(text); }
+function tripLine(r){
+  return '<div class="trip-line"><div class="pin"><i></i><b></b><i class="end"></i></div><div class="stops-txt">' +
+    '<span><small>'+esc(t('fPickup'))+'</small>'+esc(r.pickup)+'</span><span><small>'+esc(t('fDropoff'))+'</small>'+esc(r.dropoff)+'</span></div></div>';
+}
+var ICON = {
+  trips:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>',
+  agenda:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>',
+  drivers:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.5 3.4-5.5 6.5-5.5s5.7 2 6.5 5.5"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.5c2.4.2 4 1.8 4.5 4.5"/></svg>',
+  inbox:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg>'
+};
+
+/* ---------- Toast, copy, confirm ---------- */
+var toastTimer;
+function toast(msg){ var el = document.getElementById('toast'); el.textContent = msg; el.classList.add('show'); clearTimeout(toastTimer); toastTimer = setTimeout(function(){ el.classList.remove('show'); }, 2800); }
+function copyText(text){
+  function fallback(){ var ta = document.createElement('textarea'); ta.value = text; ta.setAttribute('readonly',''); ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); var ok=false; try { ok = document.execCommand('copy'); } catch(e){} document.body.removeChild(ta); toast(ok ? t('copied') : t('copyFail')); }
+  if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(function(){ toast(t('copied')); }, fallback); else fallback();
+}
+function ask(msg){ try { return window.confirm(msg) !== false; } catch(e){ return true; } }
+
+/* ---------- Render shell ---------- */
+var root = document.getElementById('root');
+var sheet = document.getElementById('sheet');
+function render(){
+  var ae = document.activeElement, sel = null;
+  if (ae && ae.dataset && ae.dataset.action && !sheet.contains(ae)) sel = '[data-action="'+ae.dataset.action+'"]' + (ae.dataset.arg ? '[data-arg="'+ae.dataset.arg+'"]' : '');
+  // keep unsaved edits in the desktop detail panel
+  var keep = null, df = root.querySelector('form[data-form="ride"]');
+  if (df && !ui.fresh){ keep = {id:df.dataset.id, v:{}}; Array.prototype.forEach.call(df.elements, function(el){ if (el.name) keep.v[el.name] = el.value; }); }
+  ui.fresh = false;
+  var tw = root.querySelector('.tl-wrap'), tlScroll = (tw && tw.dataset.day === ui.calDate) ? tw.scrollLeft : null;
+  document.documentElement.lang = ui.lang;
+  document.title = t('docTitle');
+  document.getElementById('skip').textContent = t('skip');
+  var mgr = ui.view==='app' && ui.role==='manager';
+  document.body.classList.toggle('has-bnav', mgr);
+  root.innerHTML = header() + '<div class="demo-pill" role="note"><span>'+esc(t('demoPill'))+'</span></div>' +
+    '<main id="main" tabindex="-1">' + (ui.view === 'intro' ? intro() : app()) + '</main>' + footer() + (mgr ? bnav() : '');
+  if (keep){ var nf = root.querySelector('form[data-form="ride"][data-id="'+keep.id+'"]'); if (nf) Object.keys(keep.v).forEach(function(k){ if (nf.elements[k]) nf.elements[k].value = keep.v[k]; }); }
+  var tw2 = root.querySelector('.tl-wrap');
+  if (tw2){
+    if (tlScroll != null) tw2.scrollLeft = tlScroll;
+    else {
+      var dayR = data.rides.filter(function(r){ return r.date===ui.calDate; }).sort(sortAsc);
+      var hr = ui.calDate===todayStr() ? new Date().getHours() - 1 : (dayR[0] ? +dayR[0].time.slice(0,2) - 1 : 7);
+      var hw = parseFloat(getComputedStyle(tw2.firstChild).getPropertyValue('--hw')) || 68; tw2.scrollLeft = Math.max(0, hr - H0) * hw;
+    }
+  }
+  if (sel){ var el = root.querySelector(sel); if (el){ try { el.focus({preventScroll:true}); } catch(e){ el.focus(); } } }
+}
+function header(){
+  return '<header class="topbar"><div class="wrap'+(ui.view==='app'&&ui.role==='manager'?' wide':'')+' topbar-in">' +
+    '<button class="brand" data-action="go-intro"><svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="18" fill="#2b63d9"/><path d="M12 38c7-6 13-6 20 0s13 6 20 0" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="44" cy="22" r="6" fill="#f4b740"/></svg>' +
+    '<span class="brand-text">Eladio Transport<small>'+esc(t('tagline'))+'</small></span></button>' +
+    '<nav class="topnav" aria-label="Eladio Transport">' +
+      '<button class="nav-home" data-action="go-intro"'+(ui.view==='intro'?' aria-current="page"':'')+'>'+esc(t('navIntro'))+'</button>' +
+      '<button data-action="go-app"'+(ui.view==='app'?' aria-current="page"':'')+'>'+esc(t('navApp'))+'</button></nav>' +
+    '<div class="lang" role="group" aria-label="Idioma / Language">' +
+      '<button data-action="lang" data-arg="es" aria-pressed="'+(ui.lang==='es')+'" lang="es" aria-label="Español">ES</button>' +
+      '<button data-action="lang" data-arg="en" aria-pressed="'+(ui.lang==='en')+'" lang="en" aria-label="English">EN</button>' +
+    '</div></div></header>';
+}
+function footer(){ return '<footer class="foot"><div class="wrap"><span>'+esc(t('footA'))+'</span><span>'+esc(t('footB'))+'</span></div></footer>'; }
+
+/* ---------- Intro ---------- */
+function intro(){
+  var steps = [1,2,3,4,5,6].map(function(n){ return '<li><h3>'+esc(t('how'+n+'t'))+'</h3><p>'+esc(t('how'+n))+'</p></li>'; }).join('');
+  var roles = [['manager','roleMgrLong','roleMgrDesc'],['driver','roleDrvLong','roleDrvDesc'],['rider','roleRdrLong','roleRdrDesc']].map(function(x){
+    return '<button class="role-card" data-action="go-app" data-arg="'+x[0]+'"><strong>'+esc(t(x[1]))+'</strong><span>'+esc(t(x[2]))+'</span><em>'+esc(t('openView'))+'</em></button>';
+  }).join('');
+  var li = function(a){ return a.map(function(w){ return '<li>'+esc(w)+'</li>'; }).join(''); };
+  return '<section class="hero"><div class="wrap">' +
+      '<p class="kicker">'+esc(t('heroKicker'))+'</p>' +
+      '<h1 class="sr">'+esc(t('heroL1')+' '+t('heroL2')+' '+t('heroL3'))+'</h1>' +
+      '<ol class="stops" aria-hidden="true"><li>'+esc(t('heroL1'))+'</li><li>'+esc(t('heroL2'))+'</li><li>'+esc(t('heroL3'))+'</li></ol>' +
+      '<p class="lead">'+esc(t('heroBody'))+'</p>' +
+      '<div class="callout sand" role="note"><span class="ic" aria-hidden="true">!</span><strong>'+esc(t('heroWarn'))+'</strong></div>' +
+      '<div class="cta"><button class="btn primary lg" data-action="go-app">'+esc(t('ctaExplore'))+'</button><button class="btn lg" data-action="go-how">'+esc(t('ctaHow'))+'</button></div>' +
+      '<p class="note">'+esc(t('timeHint'))+'</p></div>' +
+      '<svg class="horizon" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true"><path d="M0 52 C200 22 400 70 600 46 S1000 18 1200 44 V90 H0Z"/></svg>' +
+    '</section>' +
+    '<div class="band"><section class="wrap section" id="como-funciona" tabindex="-1"><h2>'+esc(t('howTitle'))+'</h2><ol class="steps">'+steps+'</ol></section></div>' +
+    '<section class="wrap section"><h2>'+esc(t('rolesTitle'))+'</h2><div class="roles">'+roles+'</div></section>' +
+    '<section class="wrap section"><div class="two">' +
+      '<div class="card"><h2>'+esc(t('worksTitle'))+'</h2><ul class="checks yes">'+li(T[ui.lang].works)+'</ul></div>' +
+      '<div class="card"><h2>'+esc(t('notTitle'))+'</h2><ul class="checks no">'+li(T[ui.lang].nots)+'</ul></div>' +
+    '</div></section>' +
+    '<section class="wrap section" id="opinion"><div class="card fb"><h2>'+esc(t('fbTitle'))+'</h2><p class="note">'+esc(t('fbIntro'))+'</p>' +
+      [1,2,3].map(function(n){ return '<label for="fb'+n+'">'+esc(t('fbQ'+n))+'</label><textarea id="fb'+n+'" data-fb="'+(n-1)+'">'+esc(ui.fb[n-1])+'</textarea>'; }).join('') +
+      '<div class="row" style="margin-top:14px"><a class="btn wa" id="fb-wa" href="'+esc(waUrl(fbText()))+'" target="_blank" rel="noopener">'+esc(t('fbWa'))+'</a><button class="btn" data-action="fb-copy">'+esc(t('fbCopy'))+'</button></div>' +
+      '<p class="note" style="margin-top:10px">'+esc(t('fbNote'))+'</p></div></section>';
+}
+function fbText(){ return t('fbHeader') + '\n\n1. ' + t('fbQ1') + '\n' + (ui.fb[0]||'') + '\n\n2. ' + t('fbQ2') + '\n' + (ui.fb[1]||'') + '\n\n3. ' + t('fbQ3') + '\n' + (ui.fb[2]||''); }
+
+/* ---------- App shell ---------- */
+function app(){
+  var roles = [['manager','roleMgr'],['driver','roleDrv'],['rider','roleRdr']].map(function(x){
+    return '<button data-action="role" data-arg="'+x[0]+'" aria-pressed="'+(ui.role===x[0])+'">'+esc(t(x[1]))+'</button>';
+  }).join('');
+  var body = ui.role === 'manager' ? manager() : ui.role === 'driver' ? driverView() : riderView();
+  return '<div class="wrap app'+(ui.role==='manager'?' wide':'')+'">' +
+    '<div class="rolebar"><span class="lbl" id="viewas">'+esc(t('viewAs'))+'</span><div class="seg" role="group" aria-labelledby="viewas">'+roles+'</div><span class="lock">'+esc(t('roleWarn'))+'</span></div>' +
+    body +
+    '<div class="row app-foot"><button class="btn sm quiet" data-action="reset">'+esc(t('reset'))+'</button><span class="note">'+esc(t('localNote'))+'</span></div></div>';
+}
+
+/* ---------- Manager ---------- */
+var OPEN = ['pending','approved','assigned','accepted','arrived','onboard'];
+var MOVABLE = ['pending','approved','assigned','accepted'];
+var GROUPS = { pending:['pending'], scheduled:['approved','assigned','accepted'], active:['arrived','onboard'], closed:['completed','cancelled'] };
+function inGroup(r, g){
+  if (g==='unpaid') return r.status==='completed' && !r.paid;
+  if (g==='today') return r.date===todayStr() && r.status!=='cancelled';
+  if (g==='unassigned') return r.status==='approved';
+  return GROUPS[g].indexOf(r.status) > -1;
+}
+function kpis(){
+  var c = function(g){ return data.rides.filter(function(r){ return inGroup(r,g); }).length; };
+  return {pending:c('pending'), today:c('today'), unassigned:c('unassigned'), unpaid:c('unpaid')};
+}
+function manager(){
+  var r = ui.sel ? rideById(ui.sel) : null;
+  return '<h1 class="sr">Eladio</h1><div class="mgr" data-m="'+ui.m+'">' +
+    '<aside class="pane pane-left" aria-label="'+esc(t('mTrips'))+'">'+leftPane()+'</aside>' +
+    '<section class="pane pane-center" aria-label="'+esc(t('mAgenda'))+'">'+centerPane()+'</section>' +
+    '<aside class="pane pane-right" aria-live="polite">'+(r && isWide() ? detailHtml(r, false) : detailEmpty())+'</aside>' +
+  '</div>';
+}
+function bnav(){
+  var k = kpis();
+  return '<nav class="bnav" aria-label="Eladio">' + [['trips','mTrips'],['agenda','mAgenda'],['drivers','mDrivers'],['inbox','mInbox']].map(function(x){
+    return '<button data-action="m" data-arg="'+x[0]+'" aria-pressed="'+(ui.m===x[0])+'">'+ICON[x[0]]+'<span>'+esc(t(x[1]))+'</span>'+(x[0]==='trips' && k.pending ? '<span class="n">'+k.pending+'</span>' : '')+'</button>';
+  }).join('') + '</nav>';
+}
+function leftPane(){
+  var k = kpis();
+  var kp = [['pending','k-pending','kPending'],['today','k-today','kToday'],['unassigned','k-unassigned','kUnassigned'],['unpaid','k-unpaid','kUnpaid']].map(function(x){
+    return '<button class="kpi '+x[1]+'" data-action="filter" data-arg="'+x[0]+'" aria-pressed="'+(ui.filter===x[0])+'"><b>'+k[x[0]]+'</b><span>'+esc(t(x[2]))+'</span></button>';
+  }).join('');
+  var items = attentionItems();
+  var att = '<section class="att"><h2>'+esc(t('attTitle'))+(items.length?' <span class="n">'+items.length+'</span>':'')+'</h2>' +
+    (items.length ? items.map(function(i){ return '<button class="att-item" data-action="open-ride" data-arg="'+i[2]+'">'+esc(i[1])+'</button>'; }).join('') : '<p class="note" style="margin:0">'+esc(t('attNone'))+'</p>') + '</section>';
+  var fl = [['pending','fPending'],['scheduled','fScheduled'],['active','fActive'],['closed','fClosed']].map(function(x){
+    return '<button data-action="filter" data-arg="'+x[0]+'" aria-pressed="'+(ui.filter===x[0])+'">'+esc(t(x[1]))+'</button>';
+  }).join('');
+  var list = data.rides.filter(function(r){ return inGroup(r, ui.filter); }).sort(ui.filter==='closed'||ui.filter==='unpaid' ? sortDesc : sortAsc);
+  return '<div class="kpis">'+kp+'</div>' + att +
+    '<div class="filters"><div class="seg" role="group">'+fl+'</div></div>' +
+    (list.length ? '<div class="rlist">'+list.map(rowHtml).join('')+'</div>' : '<p class="empty">'+esc(t('empty'))+'</p>');
+}
+function rowHtml(r){
+  var d = driverById(r.driverId);
+  return '<button class="rrow" data-action="open-ride" data-arg="'+r.id+'" aria-current="'+(ui.sel===r.id)+'">' +
+    '<span class="d"><b>'+esc(fmtTime(r.time))+'</b><small>'+esc(dayShort(r.date))+'</small></span>' +
+    '<span class="m"><span class="r">'+esc(routeShort(r,18))+'</span><span class="s"><i class="dot '+sc(r.status)+'"></i>'+esc(t('st_'+r.status))+' · '+esc(r.customer)+'</span></span>' +
+    '<span class="who" title="'+esc(d ? d.name : t('unassigned'))+'">'+avatar(d)+'</span></button>';
+}
+function attentionItems(){
+  var D = todayStr(), soon = addDays(D,2), items = [];
+  data.rides.slice().sort(sortAsc).forEach(function(r){
+    var v = {route:dayShort(r.date)+' '+fmtTime(r.time)+', '+short(r.dropoff,18)};
+    if (r.status==='approved' && r.declinedBy){ v.name = r.declinedBy.replace(/\s*\(.*\)/,''); items.push([0, t('attDeclined',v), r.id]); }
+    else if (r.status==='pending') items.push([1, t('attPending',v), r.id]);
+    else if (r.status==='approved' && r.date <= soon) items.push([2, t('attNoDriver',v), r.id]);
+    else if (r.status==='assigned' && r.date <= addDays(D,1) && !(driverById(r.driverId)||{}).owner){ var d = driverById(r.driverId); v.name = d ? d.name.replace(/\s*\(.*\)/,'') : ''; items.push([3, t('attNotAccepted',v), r.id]); }
+    else if (r.status==='completed' && !r.paid) items.push([4, t('attUnpaid',v), r.id]);
+  });
+  return items.sort(function(a,b){return a[0]-b[0];}).slice(0,4);
+}
+function centerPane(){
+  var cm = ui.m === 'trips' ? 'agenda' : ui.m;
+  var tabs = '<div class="center-tabs"><div class="seg" role="group">' + [['agenda','mAgenda'],['drivers','mDrivers'],['inbox','mInbox']].map(function(x){
+    return '<button data-action="m" data-arg="'+x[0]+'" aria-pressed="'+(cm===x[0])+'">'+esc(t(x[1]))+'</button>';
+  }).join('') + '</div></div>';
+  return tabs + (cm==='drivers' ? driversPane() : cm==='inbox' ? inbox() : agenda());
+}
+
+/* Agenda: day timeline + week */
+var H0 = 5, H1 = 24;
+function agenda(){
+  var D = todayStr();
+  var label = ui.calMode==='week'
+    ? new Intl.DateTimeFormat(locale(), {day:'numeric', month:'short'}).format(parseYmd(startOfWeek(ui.calDate))) + ' – ' + new Intl.DateTimeFormat(locale(), {day:'numeric', month:'short'}).format(parseYmd(addDays(startOfWeek(ui.calDate),6)))
+    : (relDay(ui.calDate) ? relDay(ui.calDate)+', ' : '') + fmtDate(ui.calDate);
+  var head = '<div class="center-head"><div class="seg" role="group">' +
+      '<button data-action="cal-mode" data-arg="day" aria-pressed="'+(ui.calMode==='day')+'">'+esc(t('calDay'))+'</button>' +
+      '<button data-action="cal-mode" data-arg="week" aria-pressed="'+(ui.calMode==='week')+'">'+esc(t('calWeek'))+'</button></div>' +
+    '<div class="datenav"><button class="btn sm" data-action="cal-move" data-arg="-1" aria-label="'+esc(t('calPrev'))+'">‹</button>' +
+      '<h2 aria-live="polite">'+esc(label)+'</h2>' +
+      '<button class="btn sm" data-action="cal-move" data-arg="1" aria-label="'+esc(t('calNext'))+'">›</button>' +
+      (ui.calDate!==D ? '<button class="btn sm soft" data-action="cal-today">'+esc(t('calToday'))+'</button>' : '') + '</div></div>';
+  return head + (ui.calMode==='week' ? week() : timeline()) +
+    '<div class="legend">'+['pending','approved','assigned','accepted','onboard','completed'].map(function(s){ return badge(s); }).join('')+'</div>' +
+    '<p class="note" style="margin-top:10px">'+esc(t(ui.calMode==='week'?'calWarn':'tlNote'))+'</p>';
+}
+function lanes(rides){
+  var ends = [];
+  return rides.map(function(r){
+    var p = r.time.split(':').map(Number), s = p[0] + p[1]/60;
+    var lane = 0; while (ends[lane] != null && ends[lane] > s + 0.001) lane++;
+    ends[lane] = s + 1;
+    return {r:r, start:s, lane:lane};
+  });
+}
+function timeline(){
+  var day = ui.calDate;
+  var rides = data.rides.filter(function(r){ return r.date===day; }).sort(sortAsc);
+  var hours = ''; for (var h=H0; h<H1; h++){ hours += '<span>'+esc(fmtTime(pad(h)+':00').replace(':00',''))+'</span>'; }
+  var rows = [{id:'none', name:t('noDriverRow')}].concat(data.drivers);
+  var nowLine = '';
+  if (day === todayStr()){ var n = new Date(), hh = n.getHours() + n.getMinutes()/60; if (hh>=H0 && hh<H1) nowLine = '<i class="now" style="left:calc('+(hh-H0)+' * var(--hw))"></i>'; }
+  var body = rows.map(function(d){
+    var mine = rides.filter(function(r){ return d.id==='none' ? (!r.driverId && r.status!=='cancelled') : r.driverId===d.id; });
+    var L = lanes(mine), nl = L.reduce(function(m,x){ return Math.max(m, x.lane+1); }, 1);
+    var blocks = L.map(function(x){
+      var r = x.r, left = Math.max(0, x.start - H0), mov = MOVABLE.indexOf(r.status) > -1;
+      return '<button class="blk s-'+sc(r.status)+(ui.sel===r.id?' sel':'')+'" style="left:calc('+left+' * var(--hw) + 2px);width:calc(var(--hw) * 1.6 - 4px);top:'+(8+x.lane*46)+'px" data-action="open-ride" data-arg="'+r.id+'" data-ride="'+r.id+'"'+(mov?' draggable="true"':'')+' aria-label="'+esc(fmtTime(r.time)+', '+r.pickup+' → '+r.dropoff+', '+t('st_'+r.status))+'">' +
+        '<b>'+esc(fmtTime(r.time))+'</b>'+esc(short(r.dropoff,22))+'</button>';
+    }).join('');
+    var label = d.id==='none'
+      ? '<span class="avatar none" aria-hidden="true">?</span><span class="nm">'+esc(d.name)+'</span>'
+      : avatar(d) + '<span class="nm">'+esc(d.name.replace(/\s*\(.*\)/,''))+'<small>'+esc(t(d.available?'available':'unavailable'))+'</small></span>';
+    return '<div class="tl-row'+(d.id==='none'?' unassigned':'')+(d.available===false?' off':'')+'"><div class="tl-label">'+label+'</div>' +
+      '<div class="tl-track" data-drop="'+d.id+'" style="min-height:'+(16+nl*46)+'px">'+blocks+nowLine+'</div></div>';
+  }).join('');
+  return '<div class="tl-wrap" data-day="'+day+'"><div class="tl"><div class="tl-hours"><span class="lw"></span>'+hours+'</div>'+body+'</div></div>';
+}
+function week(){
+  var D = todayStr(), ws = startOfWeek(ui.calDate);
+  return '<div class="week">' + [0,1,2,3,4,5,6].map(function(i){
+    var day = addDays(ws,i), dd = parseYmd(day);
+    var rides = data.rides.filter(function(r){ return r.date===day; }).sort(sortAsc);
+    return '<section class="wday'+(day===D?' today':'')+'" aria-label="'+esc(fmtDate(day,null,true))+'"><h3><b>'+dd.getDate()+'</b>'+esc(new Intl.DateTimeFormat(locale(),{weekday:'short'}).format(dd))+'</h3>' +
+      (rides.length ? rides.map(function(r){ var d = driverById(r.driverId);
+        return '<button class="wev s-'+sc(r.status)+'" data-action="open-ride" data-arg="'+r.id+'"><b>'+esc(fmtTime(r.time))+'</b>'+esc(short(r.dropoff,24))+'<small>'+esc(d ? d.name.replace(/\s*\(.*\)/,'') : t('st_'+r.status))+'</small></button>';
+      }).join('') : '<p class="none">'+esc(t('calNone'))+'</p>') + '</section>';
+  }).join('') + '</div>';
+}
+
+/* Drivers pane */
+function driversPane(){
+  var ws = startOfWeek(todayStr()), we = addDays(ws,6), D = todayStr();
+  return '<p class="note">'+esc(t('drvNote'))+'</p><div class="dgrid">' + data.drivers.map(function(d){
+    var mine = data.rides.filter(function(r){ return r.driverId===d.id && r.status!=='cancelled'; });
+    var n = mine.filter(function(r){ return r.date>=ws && r.date<=we; }).length;
+    var nx = mine.filter(function(r){ return r.date>=D && OPEN.indexOf(r.status)>-1; }).sort(sortAsc)[0];
+    return '<article class="dcard"><div class="hd">'+avatar(d,'lg')+'<div><b>'+esc(d.name)+'</b><small>'+esc(d.owner ? t('owner') : d.vehicle[ui.lang])+'</small></div></div>' +
+      '<div class="stat"><span><b>'+n+'</b> '+esc(t('weekRides'))+'</span><span>'+esc(t('nextShort'))+': <b>'+esc(nx ? dayShort(nx.date)+' '+fmtTime(nx.time) : t('noneSoon'))+'</b></span></div>' +
+      '<div class="row"><button class="avail" data-action="toggle-avail" data-arg="'+d.id+'" aria-pressed="'+d.available+'">'+esc(t(d.available?'available':'unavailable'))+'</button>' +
+      '<button class="btn sm quiet" data-action="see-driver" data-arg="'+d.id+'">'+esc(t('seeAsDriver'))+'</button></div></article>';
+  }).join('') + '</div>';
+}
+
+/* Inbox */
+var SAMPLES = [
+  'Hola Eladio, buenos días. Soy de la Familia Ejemplo. ¿Me podrías llevar mañana de Punta Hermosa al aeropuerto a las 5 de la mañana? Somos 3 con maletas.',
+  'Hi Eladio, it’s Familia Demo. Could you pick up my son from school (Colegio in Surco) to Punta Hermosa on Friday at 3:30 pm? Just him, 1 passenger.',
+  'Buenas tardes, para el sábado necesito movilidad desde San Bartolo hasta Miraflores, 2 personas, salimos 7:00 pm. Gracias',
+  'Eladio, ¿mañana temprano me puedes llevar al aeropuerto? Te confirmo la hora.'
+];
+function inbox(){
+  return '<div class="inbox"><h2>'+esc(t('inboxTitle'))+'</h2>' +
+    '<div class="callout blue"><span class="ic" aria-hidden="true">i</span><span>'+esc(t('inboxNote'))+'</span></div>' +
+    '<p style="margin:14px 0 8px;font-weight:700;font-size:.9rem">'+esc(t('samples'))+'</p><div class="chips">' +
+      SAMPLES.map(function(s,i){ return '<button class="chip plain" data-action="sample" data-arg="'+i+'">'+esc(t('sample',{n:i+1}))+'</button>'; }).join('') + '</div>' +
+    '<label class="field" style="margin-top:12px"><span>'+esc(t('inboxLabel'))+'</span><textarea id="inbox-text" rows="4" placeholder="'+esc(t('inboxPh'))+'">'+esc(ui.inboxText)+'</textarea></label>' +
+    '<div class="row" style="margin-top:10px"><button class="btn primary" data-action="parse">'+esc(t('makeDraft'))+'</button></div>' +
+    (ui.draft ? draftForm() : '') + '</div>';
+}
+function tagFor(ok){ return '<span class="tag '+(ok?'ok':'check')+'">'+esc(t(ok?'found':'check'))+'</span>'; }
+function draftForm(){
+  var d = ui.draft, f = d.found;
+  function fld(key, label, type, v, extra){ return '<label class="field"><span>'+esc(t(label))+' '+tagFor(f[key])+'</span><input type="'+type+'" name="'+key+'" value="'+esc(v)+'"'+(extra||'')+'></label>'; }
+  return '<form class="draft" data-form="draft" novalidate><h2>'+esc(t('draftTitle'))+'</h2><p class="note">'+esc(t('draftNote'))+'</p>' +
+    '<div class="g2">' + fld('customer','fCustomer','text',d.customer) +
+      '<label class="field"><span>'+esc(t('fPassenger'))+' <span class="hint">('+esc(t('optional'))+')</span></span><input type="text" name="passenger" value=""></label>' +
+      fld('pickup','fPickup','text',d.pickup) + fld('dropoff','fDropoff','text',d.dropoff) + '</div>' +
+    '<div class="g3" style="margin-top:12px">' + fld('date','fDate','date',d.date) + fld('time','fTime','time',d.time) + fld('pax','fPax','number',d.pax,' min="1" max="12" inputmode="numeric"') + '</div>' +
+    '<label class="field" style="margin-top:12px"><span>'+esc(t('fNotes'))+'</span><textarea name="notes" rows="2"></textarea></label>' +
+    '<details style="margin-top:8px"><summary>'+esc(t('fOrig'))+'</summary><pre class="msg">'+esc(d.raw)+'</pre></details>' +
+    '<div class="row" style="margin-top:12px"><button type="submit" class="btn primary">'+esc(t('createReq'))+'</button><button type="button" class="btn quiet" data-action="discard">'+esc(t('discard'))+'</button></div></form>';
+}
+
+function parseMessage(raw){
+  var out = {raw:raw, customer:'', pickup:'', dropoff:'', date:'', time:'', pax:'', found:{}};
+  var n = norm(raw).replace(/a\.\s?m\.?/g,'am').replace(/p\.\s?m\.?/g,'pm');
+  var D = todayStr();
+  // Customer: "Familia X"
+  var fm = raw.match(/\bfamilia\s+([A-ZÁÉÍÓÚÑ][\wáéíóúñ]+)/i);
+  if (fm){ out.customer = 'Familia ' + fm[1].charAt(0).toUpperCase() + fm[1].slice(1); out.found.customer = true; }
+  // Date
+  var nd = n.replace(/\b(de|en|por) la manana\b/g,' ').replace(/\b(in the|this) morning\b/g,' ');
+  var date = '';
+  if (/\bpasado manana\b|\bday after tomorrow\b/.test(nd)) date = addDays(D,2);
+  else if (/\bmanana\b|\btomorrow\b/.test(nd)) date = addDays(D,1);
+  else if (/\bhoy\b|\btoday\b|\btonight\b|\besta noche\b/.test(nd)) date = D;
+  else {
+    var days = [['domingo','sunday'],['lunes','monday'],['martes','tuesday'],['miercoles','wednesday'],['jueves','thursday'],['viernes','friday'],['sabado','saturday']];
+    for (var i=0;i<7 && !date;i++){
+      if (days[i].some(function(w){ return new RegExp('\\b'+w+'\\b').test(nd); })){
+        var diff = (i - parseYmd(D).getDay() + 7) % 7; date = addDays(D, diff);
+      }
+    }
+    if (!date){
+      var dm = nd.match(/\b(\d{1,2})[\/\-](\d{1,2})(?:[\/\-](\d{2,4}))?\b/);
+      if (dm){
+        var dday = +dm[1], mon = +dm[2], yr = dm[3] ? +dm[3] : new Date().getFullYear(); if (yr < 100) yr += 2000;
+        if (dday>=1 && dday<=31 && mon>=1 && mon<=12){
+          var cand = ymd(new Date(yr, mon-1, dday));
+          if (!dm[3] && cand < D) cand = ymd(new Date(yr+1, mon-1, dday));
+          date = cand;
+        }
+      }
+    }
+  }
+  if (date){ out.date = date; out.found.date = true; }
+  // Time
+  var h = null, mi = 0, mer = null, m;
+  if ((m = n.match(/(?:a las|a la|at|@)\s*(\d{1,2})(?:[:.h](\d{2}))?\s*(am|pm)?/))){ h=+m[1]; mi=m[2]?+m[2]:0; mer=m[3]||null; }
+  else if ((m = n.match(/\b(\d{1,2}):(\d{2})\s*(am|pm)?/))){ h=+m[1]; mi=+m[2]; mer=m[3]||null; }
+  else if ((m = n.match(/\b(\d{1,2})\s*(am|pm)\b/))){ h=+m[1]; mer=m[2]; }
+  if (h !== null && h < 24 && mi < 60){
+    if (!mer){
+      if (/de la tarde|de la noche|in the afternoon|in the evening|at night|tonight|esta noche/.test(n)) mer = 'pm';
+      else if (/de la manana|in the morning|de madrugada/.test(n)) mer = 'am';
+    }
+    var clear = !!mer || h > 12 || h === 0;
+    if (mer==='pm' && h<12) h += 12;
+    if (mer==='am' && h===12) h = 0;
+    out.time = pad(h)+':'+pad(mi); out.found.time = clear;
+  }
+  // Passengers
+  var W = {un:1,una:1,uno:1,dos:2,tres:3,cuatro:4,cinco:5,seis:6,siete:7,ocho:8,one:1,two:2,three:3,four:4,five:5,six:6,seven:7,eight:8};
+  var nums = '(\\d{1,2}|un|una|uno|dos|tres|cuatro|cinco|seis|siete|ocho|one|two|three|four|five|six|seven|eight)';
+  var pm = n.match(new RegExp('\\b'+nums+'\\s+(personas?|pasajeros?|pax|passengers?|people|persons?|adultos?|adults?)\\b')) ||
+           n.match(new RegExp('\\b(?:somos|seremos|we are|we re)\\s+'+nums+'\\b'));
+  if (pm){ var v = W[pm[1]] || +pm[1]; if (v>0){ out.pax = v; out.found.pax = true; } }
+  // Route
+  var stop = '(?=\\s*(?:[,.;!?¿\\n]|$)|\\s+(?:el|la|los|hoy|ma[ñn]ana|pasado|a las|a la|at|on|tomorrow|today|tonight|para|por favor|please|for|somos|we|y|and|con|with|lunes|martes|mi[eé]rcoles|jueves|viernes|s[áa]bado|domingo|monday|tuesday|wednesday|thursday|friday|saturday|sunday)\\b)';
+  var rm = raw.match(new RegExp('\\b(?:desde|de|from)\\s+([^,.;!?¿\\n]+?)\\s+(?:hasta|hacia|al|a|to)\\s+([^,.;!?¿\\n]+?)'+stop, 'i'));
+  if (rm){ out.pickup = rm[1].trim(); out.dropoff = rm[2].trim(); out.found.pickup = out.found.dropoff = true; }
+  else {
+    var dm2 = raw.match(new RegExp('\\b(?:al|hacia|hasta|to the)\\s+([^,.;!?¿\\n]+?)'+stop, 'i'));
+    if (dm2){ out.dropoff = dm2[1].trim(); out.found.dropoff = true; }
+  }
+  if (out.dropoff && /^(aeropuerto|airport)$/i.test(out.dropoff)) out.dropoff = out.dropoff.charAt(0).toUpperCase() + out.dropoff.slice(1);
+  out.pickup = out.pickup.slice(0,80); out.dropoff = out.dropoff.slice(0,80);
+  return out;
+}
+
+
+/* Ride detail (right pane on wide screens, bottom sheet on phones) */
+function detailEmpty(){ return '<div class="d-empty"><div class="ill" aria-hidden="true">🌊</div><p>'+esc(t('pickRide'))+'</p></div>'; }
+function detailHtml(r, inSheet){
+  var pend = r.status==='pending', d = driverById(r.driverId);
+  var opts = '<option value="">'+esc(t('noDriver'))+'</option>' + data.drivers.map(function(x){
+    return '<option value="'+x.id+'"'+(r.driverId===x.id?' selected':'')+'>'+esc(x.name)+(x.available?'':' '+t('notAvailSuffix'))+'</option>';
+  }).join('');
+  function inp(n,l,ty,v,ex){ return '<label class="field"><span>'+esc(t(l))+'</span><input type="'+ty+'" name="'+n+'" value="'+esc(v)+'"'+(ex||'')+'></label>'; }
+  return '<div class="detail">' + (inSheet ? '<div class="grab" aria-hidden="true"></div>' : '') +
+    '<div class="d-head"><div><h2 id="'+(inSheet?'d-title':'d-title-pane')+'">'+esc(whenLabel(r))+'</h2><div class="row" style="gap:8px">'+badge(r.status)+'<span class="sub">'+esc(r.customer)+' · '+esc(t('paxN',{n:r.pax}))+'</span></div></div>' +
+      '<button class="icon-btn" data-action="close-detail" aria-label="'+esc(t('close'))+'">×</button></div>' +
+    '<div class="d-body">' +
+      tripLine(r) +
+      (r.declinedBy && r.status==='approved' ? '<p class="declined" style="margin:0">'+esc(t('declinedBy',{name:r.declinedBy}))+'</p>' : '') +
+      '<form data-form="ride" data-id="'+r.id+'" novalidate>' +
+        '<div class="g2"><label class="field"><span>'+esc(t('fFare'))+'</span><span class="money"><input type="number" name="fare" min="0" step="0.5" inputmode="decimal" value="'+(r.fare==null?'':esc(r.fare))+'"></span></label>' +
+        '<label class="field"><span>'+esc(t('fDriver'))+'</span><select name="driver">'+opts+'</select></label></div>' +
+        '<details style="margin-top:10px"'+(pend?' open':'')+'><summary>'+esc(t('tripDetails'))+'</summary><div class="g2" style="margin-top:8px">' +
+          inp('customer','fCustomer','text',r.customer) + inp('passenger','fPassenger','text',r.passenger) +
+          inp('pickup','fPickup','text',r.pickup) + inp('dropoff','fDropoff','text',r.dropoff) +
+          inp('date','fDate','date',r.date) + inp('time','fTime','time',r.time) +
+          inp('pax','fPax','number',r.pax,' min="1" max="12" inputmode="numeric"') +
+          '<label class="field all"><span>'+esc(t('fNotes'))+'</span><textarea name="notes" rows="2">'+esc(r.notes)+'</textarea></label></div>' +
+          (r.sourceMessage ? '<p style="margin:10px 0 0;font-weight:700;font-size:.88rem">'+esc(t('fOrig'))+'</p><pre class="msg">'+esc(r.sourceMessage)+'</pre>' : '') + '</details>' +
+        '<div class="row" style="margin-top:12px"><button type="submit" class="btn primary block">'+esc(t(pend?'approveSave':'saveChanges'))+'</button></div></form>' +
+      '<section class="d-sec" data-part="pay">'+payBlock(r)+'</section>' +
+      '<section class="d-sec" data-part="msg">'+msgBlock(r)+'</section>' +
+      (r.status!=='cancelled' && r.status!=='completed' ? '<section class="d-sec"><button class="btn danger sm" data-action="cancel-ride" data-arg="'+r.id+'">'+esc(t('cancelRide'))+'</button></section>' : '') +
+    '</div></div>';
+}
+function payBlock(r){
+  return '<h3>'+esc(t('payTitle'))+'</h3><div class="row"><span class="badge b-'+(r.paid?'paid':'unpaid')+'">'+esc(t(r.paid?'paid':'unpaid'))+'</span>' +
+    '<b>'+esc(money(r.fare) || t('fareTBD'))+'</b><span class="spacer"></span>' +
+    '<button class="btn sm" data-action="toggle-paid" data-arg="'+r.id+'">'+esc(t(r.paid?'markUnpaid':'markPaid'))+'</button></div>' +
+    '<p class="note" style="margin:8px 0 0">'+esc(t('payNote'))+'</p>';
+}
+function buildMessage(r, lang){
+  var M = MSG[lang], d = driverById(r.driverId);
+  var vars = {customer:r.customer, date:fmtDate(r.date, lang, true), time:fmtTime(r.time, lang), pickup:r.pickup, dropoff:r.dropoff, pax:r.pax, driver: d ? d.name : M.tbd, fare: money(r.fare) || M.tbd};
+  var key = {pending:'pending', approved:'confirm', assigned:'confirm', accepted:'confirm', arrived:'arrived', onboard:'onboard', completed:'completed', cancelled:'cancelled'}[r.status];
+  return fill(M[key], vars);
+}
+function msgBlock(r){
+  var lang = ui.msgLang || ui.lang, text = buildMessage(r, lang);
+  return '<div class="row"><h3 style="margin:0">'+esc(t('msgTitle'))+'</h3><span class="spacer"></span><div class="seg" role="group" aria-label="'+esc(t('msgTitle'))+'">' +
+      '<button data-action="msg-lang" data-arg="es" aria-pressed="'+(lang==='es')+'">ES</button><button data-action="msg-lang" data-arg="en" aria-pressed="'+(lang==='en')+'">EN</button></div></div>' +
+    '<pre class="msg" data-part="wa-text">'+esc(text)+'</pre>' +
+    '<div class="row"><a class="btn sm wa" href="'+esc(waUrl(text))+'" target="_blank" rel="noopener">'+esc(t('openWa'))+'</a><button class="btn sm" data-action="copy-msg">'+esc(t('copy'))+'</button></div>' +
+    '<p class="note" style="margin:8px 0 0">'+esc(t('waNote'))+'</p>';
+}
+function detailScope(){ return sheet.open ? sheet : root.querySelector('.pane-right'); }
+function openRide(id){
+  ui.sel = id; ui.msgLang = null;
+  if (isWide()){ ui.fresh = true; render(); var p = root.querySelector('.pane-right'); if (p){ p.scrollTop = 0; var h = p.querySelector('h2'); if (h){ h.setAttribute('tabindex','-1'); h.focus({preventScroll:true}); } } }
+  else openSheet();
+}
+function openSheet(){
+  var r = rideById(ui.sel); if (!r) return;
+  sheet.innerHTML = detailHtml(r, true);
+  if (!sheet.open){ if (typeof sheet.showModal === 'function') sheet.showModal(); else sheet.setAttribute('open',''); }
+  render();
+}
+function refreshDetail(){
+  var r = rideById(ui.sel);
+  if (sheet.open){ if (r) sheet.innerHTML = detailHtml(r, true); else closeSheet(); }
+  ui.fresh = true; render();
+}
+function closeSheet(){ if (sheet.open){ if (typeof sheet.close === 'function') sheet.close(); else sheet.removeAttribute('open'); } }
+sheet.addEventListener('close', function(){ if (!isWide()){ ui.sel = null; render(); } });
+sheet.addEventListener('click', function(e){ if (e.target === sheet) closeSheet(); });
+if (window.matchMedia){ var mq = window.matchMedia('(min-width:1100px)'); var onMq = function(){ if (isWide() && sheet.open){ sheet.close(); } ui.fresh = true; render(); }; if (mq.addEventListener) mq.addEventListener('change', onMq); else if (mq.addListener) mq.addListener(onMq); }
+
+/* ---------- Driver view ---------- */
+function driverView(){
+  var me = driverById(ui.driverId) || data.drivers[0];
+  var D = todayStr(), lim = addDays(D,14), weekAgo = addDays(D,-7);
+  var mine = data.rides.filter(function(r){ return r.driverId===me.id && r.status!=='cancelled'; });
+  var openRides = mine.filter(function(r){ return r.date>=D && r.date<=lim && OPEN.indexOf(r.status)>-1; }).sort(sortAsc);
+  var nx = openRides[0];
+  var todayRest = openRides.filter(function(r){ return r!==nx && r.date===D; });
+  var later = openRides.filter(function(r){ return r!==nx && r.date>D; });
+  var recent = mine.filter(function(r){ return r.date>=weekAgo && r.status==='completed'; }).sort(sortDesc);
+  var opts = data.drivers.map(function(d){ return '<option value="'+d.id+'"'+(d.id===me.id?' selected':'')+'>'+esc(d.name)+'</option>'; }).join('');
+  return '<div class="driver"><div class="drv-top"><label class="row" style="gap:8px"><span class="note">'+esc(t('drvPick'))+'</span><select data-change="driver">'+opts+'</select></label><span class="spacer"></span>' +
+      '<button class="avail" data-action="toggle-avail" data-arg="'+me.id+'" aria-pressed="'+me.available+'">'+esc(t(me.available?'available':'unavailable'))+'</button></div>' +
+    '<p class="hello">'+esc(t('drvTitle',{name:me.name.replace(/\s*\(.*\)/,'')}))+'</p>' +
+    '<h2 class="h-sec">'+esc(t('nextUp'))+'</h2>' + (nx ? drvCard(nx, true) : '<p class="empty">'+esc(t('noUpcoming'))+'</p>') +
+    (todayRest.length ? '<h2 class="h-sec">'+esc(t('today'))+'</h2><div class="list">'+todayRest.map(function(r){return drvCard(r);}).join('')+'</div>' : '') +
+    (later.length ? '<h2 class="h-sec">'+esc(t('upcoming'))+'</h2><div class="list">'+later.map(function(r){return drvCard(r);}).join('')+'</div>' : '') +
+    '<details style="margin-top:20px"><summary>'+esc(t('recent'))+' ('+recent.length+')</summary>' + (recent.length ? '<div class="list" style="margin-top:10px">'+recent.map(function(r){return drvCard(r);}).join('')+'</div>' : '<p class="note">'+esc(t('noRecent'))+'</p>') + '</details>' +
+    '<p class="note" style="margin-top:16px">'+esc(t('drvPrivacy'))+'</p></div>';
+}
+function drvCard(r, hero){
+  var acts = '';
+  if (r.status==='assigned') acts = '<button class="btn primary" style="flex:1" data-action="drv" data-arg="accept:'+r.id+'">'+esc(t('accept'))+'</button><button class="btn danger" data-action="drv" data-arg="decline:'+r.id+'">'+esc(t('decline'))+'</button>';
+  else if (r.status==='accepted') acts = '<button class="btn primary lg block" data-action="drv" data-arg="arrived:'+r.id+'">'+esc(t('arrivedBtn'))+'</button>';
+  else if (r.status==='arrived') acts = '<button class="btn primary lg block" data-action="drv" data-arg="onboard:'+r.id+'">'+esc(t('onboardBtn'))+'</button>';
+  else if (r.status==='onboard') acts = '<button class="btn primary lg block" data-action="drv" data-arg="complete:'+r.id+'">'+esc(t('completeBtn'))+'</button>';
+  var b = r.status==='assigned' ? '<span class="badge b-assigned">'+esc(t('dsAssigned'))+'</span>' : badge(r.status);
+  return '<article class="trip'+(hero?' hero':'')+'"><div class="top"><span><span class="t">'+esc(fmtTime(r.time))+'</span> <span class="note">'+esc(r.date===todayStr()?t('rel_today'):(relDay(r.date)||fmtDate(r.date)))+'</span></span>'+b+'</div>' +
+    tripLine(r) +
+    '<dl class="kv"><dt>'+esc(t('passenger'))+'</dt><dd>'+esc(r.passenger || r.customer)+', '+esc(t('paxLong',{n:r.pax}))+'</dd>' + (r.notes ? '<dt>'+esc(t('notes'))+'</dt><dd>'+esc(r.notes)+'</dd>' : '') + '</dl>' +
+    (r.status!=='completed' ? '<div class="row"><a class="btn sm" href="'+esc(mapsUrl(r))+'" target="_blank" rel="noopener">'+esc(t('maps'))+'</a><a class="btn sm" href="'+esc(wazeUrl(r.status==='onboard'?r.dropoff:r.pickup))+'" target="_blank" rel="noopener">'+esc(t(r.status==='onboard'?'wazeDest':'waze'))+'</a></div>' : '') +
+    (acts ? '<div class="row">'+acts+'</div>' : '') + '</article>';
+}
+
+/* ---------- Family view ---------- */
+function riderView(){
+  var fam = famNow(), D = todayStr();
+  var mine = data.rides.filter(function(r){ return r.familyId===fam.id; });
+  var up = mine.filter(function(r){ return r.date>=D && OPEN.indexOf(r.status)>-1; }).sort(sortAsc);
+  var nx = up[0], rest = up.slice(1);
+  var past = mine.filter(function(r){ return up.indexOf(r)===-1; }).sort(sortDesc);
+  var opts = data.families.map(function(f){ return '<option value="'+f.id+'"'+(f.id===fam.id?' selected':'')+'>'+esc(f.name)+'</option>'; }).join('');
+  return '<div class="rider">' +
+    '<div class="fam-pick"><span class="note">'+esc(t('famPick'))+'</span><select data-change="family" aria-label="'+esc(t('famPick'))+'">'+opts+'</select></div>' +
+    '<p class="hello">'+esc(t('hello',{name:fam.name}))+'</p>' +
+    (nx ? '<h2 class="h-sec" style="margin-top:14px">'+esc(t('nextRide'))+'</h2>' + nextCard(nx) : '<div style="height:12px"></div>') +
+    bookCard(fam) +
+    (rest.length ? '<h2 class="h-sec">'+esc(t('upcomingRides'))+'</h2><div class="mini">'+rest.map(miniTrip).join('')+'</div>' : '') +
+    (past.length ? '<details style="margin-top:22px"><summary>'+esc(t('pastRides'))+' ('+past.length+')</summary><div class="mini">'+past.map(miniTrip).join('')+'</div></details>' : '') +
+    '<p class="note" style="margin-top:18px">'+esc(t('rdrPrivacy'))+'</p></div>';
+}
+function riderWa(r){ return waUrl(tl(ui.lang,'waRider',{date:fmtDate(r.date), time:fmtTime(r.time), pickup:r.pickup, dropoff:r.dropoff})); }
+function nextCard(r){
+  var d = driverById(r.driverId), confirmed = d && ['assigned','accepted','arrived','onboard'].indexOf(r.status) > -1;
+  return '<article class="next"><div class="top"><div><div class="when">'+esc(fmtTime(r.time))+'</div><div class="day">'+esc((relDay(r.date)?relDay(r.date)+', ':'')+fmtDate(r.date,null,true))+'</div></div>'+badge(r.status,true)+'</div>' +
+    tripLine(r) +
+    (confirmed ? '<div class="driver-strip">'+avatar(d,'lg')+'<div class="who"><b>'+esc(d.name)+'</b><small>'+esc(d.vehicle[ui.lang])+'</small><span class="safe">'+esc(t('trusted'))+'</span></div></div>'
+      : '<div class="waiting"><span aria-hidden="true">⏳</span><span>'+esc(t('waitingEladio'))+'</span></div>') +
+    '<div class="row">' + (r.status!=='pending' && r.fare!=null ? '<span><span class="note">'+esc(t('fare'))+'</span> <b>'+esc(money(r.fare))+'</b></span>' : '') + '<span class="spacer"></span>' +
+      '<a class="btn wa sm" href="'+esc(riderWa(r))+'" target="_blank" rel="noopener">'+esc(t('writeEladio'))+'</a></div></article>';
+}
+function miniTrip(r){
+  var dd = parseYmd(r.date);
+  return '<a class="mini-trip" href="'+esc(riderWa(r))+'" target="_blank" rel="noopener" style="text-decoration:none;color:inherit" aria-label="'+esc(whenLabel(r)+', '+r.pickup+' → '+r.dropoff+'. '+t('writeEladio'))+'">' +
+    '<span class="d"><b>'+dd.getDate()+'</b><small>'+esc(new Intl.DateTimeFormat(locale(),{month:'short'}).format(dd))+'</small></span>' +
+    '<span class="m"><span class="r">'+esc(routeShort(r,16))+'</span><small>'+esc(fmtTime(r.time))+(r.status!=='pending'&&r.fare!=null?' · '+esc(money(r.fare)):'')+'</small></span>' + badge(r.status,true) + '</a>';
+}
+function bookCard(fam){
+  var b = ui.book, s = b.step, D = todayStr();
+  var prog = [1,2,3,4].map(function(n){ return '<i class="'+(n<=s?'on':'')+'"></i>'; }).join('');
+  var body = '';
+  if (s===1){
+    var chips = function(which){ return fam.places.map(function(p,i){ return '<button type="button" class="chip" data-action="place" data-arg="'+which+':'+i+'" aria-pressed="'+(b[which]===p.a)+'">'+esc(p.l)+'</button>'; }).join(''); };
+    body = '<div class="route-box">' +
+        '<label class="from"><i></i><span class="lbl">'+esc(t('from'))+'</span><span></span><input type="text" data-book="pickup" value="'+esc(b.pickup)+'" placeholder="'+esc(t('fromPh'))+'" autocomplete="off"></label>' +
+        '<label class="to"><i></i><span class="lbl">'+esc(t('to'))+'</span><span></span><input type="text" data-book="dropoff" value="'+esc(b.dropoff)+'" placeholder="'+esc(t('toPh'))+'" autocomplete="off"></label>' +
+        '<button type="button" class="swap" data-action="swap" aria-label="'+esc(t('swap'))+'">⇅</button></div>' +
+      '<div class="places"><h3>'+esc(t('savedPlaces'))+'</h3>' +
+        '<p class="sub">'+esc(t('setFrom'))+'</p><div class="chips">'+chips('pickup')+'</div>' +
+        '<p class="sub" style="margin-top:10px">'+esc(t('setTo'))+'</p><div class="chips">'+chips('dropoff')+'</div>' +
+        '<p class="note" style="margin:10px 0 0">'+esc(t('savedNote'))+'</p></div>';
+  } else if (s===2){
+    var q = [['dToday',D],['dTomorrow',addDays(D,1)],['dAfter',addDays(D,2)]].map(function(x){ return '<button type="button" class="chip" data-action="bdate" data-arg="'+x[1]+'" aria-pressed="'+(b.date===x[1])+'">'+esc(t(x[0]))+'</button>'; }).join('');
+    body = '<div class="chips">'+q+'</div>' +
+      '<div class="g2"><label class="field"><span>'+esc(t('pickDate'))+'</span><input type="date" data-book="date" min="'+D+'" value="'+esc(b.date)+'"></label>' +
+      '<label class="field"><span>'+esc(t('pickTime'))+'</span><input type="time" data-book="time" value="'+esc(b.time)+'"></label></div>';
+  } else if (s===3){
+    body = '<label class="field"><span>'+esc(t('whoRides'))+'</span><input type="text" data-book="passenger" value="'+esc(b.passenger)+'"></label>' +
+      '<div class="field"><span id="pax-l">'+esc(t('paxCount'))+'</span><div class="stepper" role="group" aria-labelledby="pax-l"><button type="button" data-action="pax" data-arg="-1" aria-label="'+esc(t('less'))+'">−</button><output aria-live="polite">'+b.pax+'</output><button type="button" data-action="pax" data-arg="1" aria-label="'+esc(t('more'))+'">+</button></div></div>' +
+      '<label class="field"><span>'+esc(t('fNotes'))+' <span class="hint">('+esc(t('optional'))+')</span></span><textarea data-book="notes" rows="2">'+esc(b.notes)+'</textarea></label>' +
+      '<label class="field"><span>'+esc(t('fContact'))+' <span class="hint">('+esc(t('optional'))+', '+esc(t('contactHint'))+')</span></span><input type="tel" data-book="contact" value="'+esc(b.contact)+'" autocomplete="off"></label>';
+  } else {
+    var rowS = function(lbl, v, st){ return '<dt>'+esc(t(lbl))+'</dt><dd>'+esc(v)+'</dd><button type="button" class="edit" data-action="bstep" data-arg="'+st+'">'+esc(t('edit'))+'</button>'; };
+    body = '<dl class="summary">' + rowS('fPickup', b.pickup, 1) + rowS('fDropoff', b.dropoff, 1) +
+      rowS('fDate', (relDay(b.date)?relDay(b.date)+', ':'')+fmtDate(b.date), 2) + rowS('fTime', fmtTime(b.time), 2) +
+      rowS('passenger', (b.passenger||fam.name)+', '+t('paxLong',{n:b.pax}), 3) + (b.notes ? rowS('fNotes', b.notes, 3) : '') + '</dl>' +
+      '<div class="callout blue"><span class="ic" aria-hidden="true">i</span><span>'+esc(t('notConfirmed'))+'</span></div>';
+  }
+  return '<section class="book" aria-labelledby="book-h"><div class="book-head"><h2 id="book-h">'+esc(t('bookTitle'))+'</h2>' +
+      '<div class="progress" aria-hidden="true">'+prog+'</div><p class="step-label">'+esc(t('stepOf',{n:s}))+': '+esc(t('s'+s))+'</p></div>' +
+    '<div class="book-body">'+body+'</div>' +
+    '<div class="book-foot">' + (s>1 ? '<button type="button" class="btn" data-action="bstep" data-arg="'+(s-1)+'">'+esc(t('back'))+'</button>' : '') +
+      (s<4 ? '<button type="button" class="btn primary lg" data-action="bnext">'+esc(t('next'))+'</button>' : '<button type="button" class="btn primary lg" data-action="bsend">'+esc(t('send'))+'</button>') +
+    '</div></section>';
+}
+
+/* ---------- Actions ---------- */
+function goApp(role){ ui.view='app'; if (role) ui.role=role; try { history.replaceState(null,'','#prototipo'); } catch(e){} render(); window.scrollTo(0,0); var m = document.getElementById('main'); if (m) m.focus({preventScroll:true}); }
+function focusIn(sel){ var el = document.querySelector(sel); if (el){ try { el.focus({preventScroll:true}); } catch(e){ el.focus(); } } }
+function assign(r, driverId){
+  if (MOVABLE.indexOf(r.status) === -1){ toast(t('dropBlocked')); return false; }
+  if (driverId){ r.driverId = driverId; r.status = 'assigned'; r.declinedBy = null; toast(t('dropAssigned',{name:driverById(driverId).name})); }
+  else { r.driverId = null; if (r.status !== 'pending') r.status = 'approved'; toast(t('dropUnassigned')); }
+  save(); return true;
+}
+var actions = {
+  'go-intro': function(){ ui.view='intro'; try { history.replaceState(null,'',location.pathname+location.search); } catch(e){} closeSheet(); render(); window.scrollTo(0,0); },
+  'go-app': function(el){ goApp(el.dataset.arg); },
+  'go-how': function(){ var s = document.getElementById('como-funciona'); if (s){ s.scrollIntoView({behavior:'smooth'}); s.focus({preventScroll:true}); } },
+  'lang': function(el){ ui.lang = el.dataset.arg; lsSet(LANG_KEY, ui.lang); if (sheet.open) sheet.innerHTML = detailHtml(rideById(ui.sel), true); render(); },
+  'role': function(el){ ui.role = el.dataset.arg; closeSheet(); render(); },
+  'm': function(el){ ui.m = el.dataset.arg; render(); if (!isWide()) window.scrollTo(0,0); },
+  'filter': function(el){ ui.filter = el.dataset.arg; ui.m = 'trips'; render(); },
+  'cal-mode': function(el){ ui.calMode = el.dataset.arg; render(); },
+  'cal-move': function(el){ ui.calDate = addDays(ui.calDate, (+el.dataset.arg) * (ui.calMode==='week'?7:1)); render(); },
+  'cal-today': function(){ ui.calDate = todayStr(); render(); },
+  'open-ride': function(el){ openRide(el.dataset.arg); },
+  'close-detail': function(){ if (sheet.open) closeSheet(); else { ui.sel = null; render(); } },
+  'toggle-avail': function(el){ var d = driverById(el.dataset.arg); d.available = !d.available; save(); render(); toast(ui.role==='manager' ? t(d.available?'availOnM':'availOffM',{name:d.name}) : t(d.available?'availOn':'availOff')); },
+  'see-driver': function(el){ ui.driverId = el.dataset.arg; ui.role='driver'; render(); window.scrollTo(0,0); },
+  'sample': function(el){ ui.inboxText = SAMPLES[+el.dataset.arg]; ui.draft = null; render(); focusIn('#inbox-text'); },
+  'parse': function(){
+    var ta = document.getElementById('inbox-text'); ui.inboxText = ta ? ta.value : ui.inboxText;
+    if (!ui.inboxText.trim()){ toast(t('needText')); return; }
+    ui.draft = parseMessage(ui.inboxText); render();
+    var f = document.querySelector('.draft'); if (f){ f.scrollIntoView({block:'start'}); var i = f.querySelector('input'); if (i) i.focus({preventScroll:true}); }
+  },
+  'discard': function(){ ui.draft = null; render(); toast(t('discarded')); },
+  'toggle-paid': function(el){ var r = rideById(el.dataset.arg); r.paid = !r.paid; save(); var sc0 = detailScope(); if (sc0){ var p = sc0.querySelector('[data-part="pay"]'); if (p) p.innerHTML = payBlock(r); } if (!sheet.open) { var keepSel = ui.sel; render(); ui.sel = keepSel; } else render(); toast(t(r.paid?'paidDone':'unpaidDone')); var s2 = detailScope(); if (s2){ var b = s2.querySelector('[data-action="toggle-paid"]'); if (b) b.focus(); } },
+  'msg-lang': function(el){ ui.msgLang = el.dataset.arg; var sc1 = detailScope(), r = rideById(ui.sel); if (sc1 && r){ var p = sc1.querySelector('[data-part="msg"]'); p.innerHTML = msgBlock(r); var b = p.querySelector('[data-arg="'+ui.msgLang+'"]'); if (b) b.focus(); } },
+  'copy-msg': function(){ var sc2 = detailScope(); var p = sc2 && sc2.querySelector('[data-part="wa-text"]'); if (p) copyText(p.textContent); },
+  'cancel-ride': function(el){ if (!ask(t('cancelConfirm'))) return; var r = rideById(el.dataset.arg); r.status='cancelled'; save(); refreshDetail(); toast(t('cancelled')); },
+  'drv': function(el){
+    var p = el.dataset.arg.split(':'), act = p[0], r = rideById(p[1]); if (!r) return;
+    if (act==='accept'){ r.status='accepted'; toast(t('tAccepted')); }
+    else if (act==='decline'){ if (!ask(t('declineConfirm'))) return; var d = driverById(r.driverId); r.declinedBy = d ? d.name : ''; r.driverId=null; r.status='approved'; toast(t('tDeclined')); }
+    else if (act==='arrived'){ r.status='arrived'; toast(t('tArrived')); }
+    else if (act==='onboard'){ r.status='onboard'; toast(t('tOnboard')); }
+    else if (act==='complete'){ r.status='completed'; toast(t('tCompleted')); }
+    save(); render();
+  },
+  'fb-copy': function(){ copyText(fbText()); },
+  'reset': function(){
+    if (!ask(t('resetConfirm'))) return;
+    lsDel(STORE_KEY); data = seed(); ui.draft=null; ui.inboxText=''; ui.calDate=todayStr(); ui.filter='pending'; ui.sel=null; ui.book=freshBook();
+    closeSheet(); ui.fresh = true; render(); toast(t('resetDone'));
+  },
+  /* family booking */
+  'place': function(el){ var p = el.dataset.arg.split(':'), fam = famNow(); ui.book[p[0]] = fam.places[+p[1]].a; render(); focusIn('[data-action="place"][data-arg="'+el.dataset.arg+'"]'); },
+  'swap': function(){ var b = ui.book, x = b.pickup; b.pickup = b.dropoff; b.dropoff = x; render(); focusIn('[data-action="swap"]'); },
+  'bdate': function(el){ ui.book.date = el.dataset.arg; render(); focusIn('[data-action="bdate"][data-arg="'+el.dataset.arg+'"]'); },
+  'pax': function(el){ ui.book.pax = Math.max(1, Math.min(12, ui.book.pax + (+el.dataset.arg))); render(); focusIn('[data-action="pax"][data-arg="'+el.dataset.arg+'"]'); },
+  'bstep': function(el){ ui.book.step = +el.dataset.arg; render(); focusBook(); },
+  'bnext': function(){
+    var b = ui.book;
+    if (b.step===1 && (!b.pickup.trim() || !b.dropoff.trim())){ toast(t('needRoute')); focusIn(!b.pickup.trim() ? '[data-book="pickup"]' : '[data-book="dropoff"]'); return; }
+    if (b.step===2 && (!b.date || !b.time)){ toast(t('needWhen')); focusIn(!b.date ? '[data-book="date"]' : '[data-book="time"]'); return; }
+    b.step++; render(); focusBook();
+  },
+  'bsend': function(){
+    var b = ui.book, fam = famNow();
+    if (!b.pickup.trim() || !b.dropoff.trim() || !b.date || !b.time){ toast(t('required')); return; }
+    data.rides.push({ id:uid(), date:b.date, time:b.time, familyId:fam.id, customer:fam.name, passenger:b.passenger.trim(),
+      pickup:b.pickup.trim(), dropoff:b.dropoff.trim(), pax:b.pax, notes:b.notes.trim(), contact:b.contact.trim(),
+      fare:null, paid:false, driverId:null, status:'pending', source:'form', declinedBy:null, sourceMessage:'' });
+    save(); ui.book = freshBook(); render(); window.scrollTo(0,0); toast(t('sentToast'));
+  }
+};
+function focusBook(){ var h = document.getElementById('book-h'); if (h){ var box = h.closest('.book'); if (box && box.getBoundingClientRect().top < 60) box.scrollIntoView({block:'start'}); var f = box.querySelector('.book-body input, .book-body button'); if (f){ try { f.focus({preventScroll:true}); } catch(e){} } } }
+document.addEventListener('click', function(e){
+  var el = e.target.closest('[data-action]'); if (!el) return;
+  var fn = actions[el.dataset.action]; if (fn){ e.preventDefault(); fn(el, e); }
+});
+
+/* Drag a timeline block onto another driver's row (desktop) */
+var dragId = null;
+document.addEventListener('dragstart', function(e){ var b = e.target.closest && e.target.closest('[data-ride][draggable="true"]'); if (!b) return; dragId = b.dataset.ride; try { e.dataTransfer.setData('text/plain', dragId); e.dataTransfer.effectAllowed = 'move'; } catch(x){} });
+document.addEventListener('dragover', function(e){ var tr = e.target.closest && e.target.closest('[data-drop]'); if (!tr || !dragId) return; e.preventDefault(); tr.classList.add('over'); });
+document.addEventListener('dragleave', function(e){ var tr = e.target.closest && e.target.closest('[data-drop]'); if (tr && !tr.contains(e.relatedTarget)) tr.classList.remove('over'); });
+document.addEventListener('drop', function(e){
+  var tr = e.target.closest && e.target.closest('[data-drop]'); if (!tr || !dragId) return; e.preventDefault();
+  var r = rideById(dragId), to = tr.dataset.drop === 'none' ? null : tr.dataset.drop; dragId = null;
+  if (r && (r.driverId || null) !== to){ if (assign(r, to)){ ui.fresh = true; render(); } } else render();
+});
+document.addEventListener('dragend', function(){ dragId = null; Array.prototype.forEach.call(document.querySelectorAll('.tl-track.over'), function(x){ x.classList.remove('over'); }); });
+
+/* ---------- Forms ---------- */
+function val(f, n){ var el = f.elements[n]; return el ? String(el.value).trim() : ''; }
+function paxVal(f){ var n = parseInt(val(f,'pax'),10); return n > 0 ? Math.min(n,12) : 1; }
+var forms = {
+  ride: function(f){
+    var r = rideById(f.dataset.id); if (!r) return;
+    if (!val(f,'pickup') || !val(f,'dropoff') || !val(f,'date') || !val(f,'time')){ toast(t('required')); return; }
+    var wasPending = r.status==='pending', prev = r.driverId, nd = val(f,'driver') || null;
+    r.customer = val(f,'customer') || r.customer; r.passenger = val(f,'passenger'); r.pickup = val(f,'pickup'); r.dropoff = val(f,'dropoff');
+    r.date = val(f,'date'); r.time = val(f,'time'); r.pax = paxVal(f); r.notes = val(f,'notes');
+    var fare = val(f,'fare'); r.fare = fare==='' || isNaN(+fare) ? null : Math.max(0, +fare);
+    var msg = t('saved');
+    if (['completed','cancelled','arrived','onboard'].indexOf(r.status) === -1){
+      if (nd !== prev || wasPending){
+        r.driverId = nd;
+        if (nd){ r.status='assigned'; r.declinedBy=null; msg = t('assignedTo',{name:driverById(nd).name}); }
+        else { r.status='approved'; msg = wasPending ? t('approved') : t('saved'); }
+      }
+    } else if (nd !== prev) r.driverId = nd;
+    save(); refreshDetail(); toast(msg);
+  },
+  draft: function(f){
+    if (!val(f,'pickup') || !val(f,'dropoff') || !val(f,'date') || !val(f,'time')){ toast(t('required')); return; }
+    var cust = val(f,'customer') || 'WhatsApp';
+    var fam = data.families.filter(function(x){ return norm(x.name)===norm(cust); })[0];
+    data.rides.push({ id:uid(), date:val(f,'date'), time:val(f,'time'), familyId: fam ? fam.id : null, customer:cust, passenger:val(f,'passenger'),
+      pickup:val(f,'pickup'), dropoff:val(f,'dropoff'), pax:paxVal(f), notes:val(f,'notes'), contact:'', fare:null, paid:false, driverId:null,
+      status:'pending', source:'wa', declinedBy:null, sourceMessage: ui.draft ? ui.draft.raw : '' });
+    save(); ui.draft=null; ui.inboxText=''; ui.m='trips'; ui.filter='pending'; render(); window.scrollTo(0,0); toast(t('draftSaved'));
+  }
+};
+document.addEventListener('submit', function(e){ var f = e.target; if (f.dataset && f.dataset.form && forms[f.dataset.form]){ e.preventDefault(); forms[f.dataset.form](f); } });
+document.addEventListener('input', function(e){
+  var el = e.target;
+  if (el.id === 'inbox-text') ui.inboxText = el.value;
+  if (el.dataset && el.dataset.book) ui.book[el.dataset.book] = el.value;
+  if (el.dataset && el.dataset.fb != null){ ui.fb[+el.dataset.fb] = el.value; var a = document.getElementById('fb-wa'); if (a) a.href = waUrl(fbText()); }
+});
+document.addEventListener('change', function(e){
+  var el = e.target; if (!el.dataset) return;
+  if (el.dataset.book) ui.book[el.dataset.book] = el.value;
+  if (el.dataset.change === 'driver'){ ui.driverId = el.value; render(); focusIn('[data-change="driver"]'); }
+  if (el.dataset.change === 'family'){ ui.familyId = el.value; ui.book = freshBook(); render(); focusIn('[data-change="family"]'); }
+});
+
+window.__eladio = { parseMessage: parseMessage, state: function(){ return {ui:ui, data:data}; }, assign: function(id, d){ var r = rideById(id); var ok = assign(r, d); ui.fresh = true; render(); return ok; } };
+render();
+})();
+</script>
+</body>
+</html>
